@@ -1,0 +1,997 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Nexturn Site</title>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+        integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="assets/fontawesome/css/fontawesome.min.css" />
+    <link rel="stylesheet" href="assets/fontawesome/css/brands.min.css" />
+    <link rel="stylesheet" href="assets/fontawesome/css/solid.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body>
+    <section class="header">
+        <div class="topbar">
+            <div class="container d-flex align-items-center justify-content-evenly">
+                <div class="topbar-item font-regular">
+                    <span class="px-2"><i class="fa-solid fa-envelope"></i></span>
+                    <span class="topbar-text">info@nexturn.com</span>
+                </div>
+                <div class="topbar-item font-regular">
+                    <span class="px-2"><i class="fa-solid fa-location-dot"></i></span>
+                    <span class="topbar-text">Bellevue, Washington</span>
+                </div>
+                <div class="topbar-item font-regular">
+                    <span class="px-2"><i class="fa-solid fa-phone"></i></span>
+                    <span class="topbar-text">(0123) 456-789</span>
+                </div>
+                <div class="topbar-item">
+                    <div class="top-socials d-flex align-items-center justify-content-evenly">
+                        <span class="px-2"><i class="fa-brands fa-facebook-f"></i></span>
+                        <span class="px-2"><i class="fa-brands fa-instagram"></i></span>
+                        <span class="px-2"><i class="fa-brands fa-twitter"></i></span>
+                        <span class="px-2"><i class="fa-brands fa-linkedin"></i></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar-expand-md bg-white header-nav">
+            <div class="container py-4">
+                <div class="row">
+                    <div class="col-md-2 col-4">
+                        <a class="navbar-brand" href="#">
+                            <img src="images/logo.png" alt="Logo" height="30">
+                        </a>
+                    </div>
+                    <div class="d-none col-md-10 d-md-flex justify-content-center">
+                        <div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item font-bold">
+                                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item font-bold">
+                                    <a class="nav-link" href="about.html">About Us</a>
+                                </li>
+                                <li class="nav-item font-bold">
+                                    <a class="nav-link" href="#">Services</a>
+                                </li>
+                                <li class="nav-item font-bold">
+                                    <a class="nav-link" href="#">Careers</a>
+                                </li>
+                                <li class="nav-item font-bold">
+                                    <a class="nav-link" href="blog.html">Blog</a>
+                                </li>
+                                <li class="nav-item font-bold">
+                                    <a class="nav-link" href="contact.html">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="d-flex d-md-none justify-content-end col-8">
+                        <a href="javascript:;" class="menu-btn">
+                            <img src="images/hamburger.png" width="32" alt="menu">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="position-fixed d-none mobile-nav align-items-center justify-content-center">
+            <a href="javascript:;" class="close"></a>
+            <ul class="nav-list px-5">
+                <li class="nav-item font-medium">
+                    <a class="nav-link active disabled" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item font-medium">
+                    <a class="nav-link" href="about.html">About Us</a>
+                </li>
+                <li class="nav-item font-medium">
+                    <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item font-medium">
+                    <a class="nav-link" href="#">Careers</a>
+                </li>
+                <li class="nav-item font-medium">
+                    <a class="nav-link" href="blog.html">Blog</a>
+                </li>
+                <li class="nav-item font-medium">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="banner-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 banner-left">
+                    <h5 class="h5 banner-title font-bold">NexTurn Inc. <span class="ms-3 d-inline-block"></span></h5>
+                    <h2 class="h2 banner-heading font-bold">Engineer Your <span>NexTurn</span> on cloud</h2>
+                    <p class="banner-content font-regular">
+                        We enable clients to navigate the paradigm shift in building and modernizing software products &
+                        platforms leveraging cloud native solutions. Partner with us to accelerate your innovation &
+                        digital transformation journey by unlocking full value of cloud.
+                    </p>
+                </div>
+                <div class="col-md-6 banner-right d-none d-md-flex">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="content py-md-5 py-3 my-md-5 my-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-xl-5 d-none d-md-block">
+                    <div class="d-flex flex-wrap align-items-center">
+                        <div class="p-2 text-end square overflow-hidden">
+                            <img src="images/engineer-1.png" class="img-fluid" alt="engineer-1">
+                        </div>
+                        <div class="mt-4 p-2 text-start square position-relative overflow-hidden">
+                            <img src="images/engineer-2.png" class="img-fluid" alt="engineer-1">
+                            <div
+                                class="div-overlay p-2 position-absolute cursor-pointer d-flex align-items-center justify-content-center">
+                                <img src="images/play.png" class="img-fluid" alt="play">
+                            </div>
+                        </div>
+                        <div class="mt-n5 ms-n5 text-end p-2 square overflow-hidden">
+                            <img src="images/engineer-3.png" class="img-fluid" alt="engineer-1">
+                        </div>
+                        <div class="col-md-6 p-2 text-start square overflow-hidden">
+                            <img src="images/engineer-4.png" class="img-fluid" alt="engineer-1">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xl-7">
+                    <h5 class="h5 section-title font-bold mb-3 d-flex align-items-center">
+                        <span class="me-3 d-inline-block"></span>About Us
+                    </h5>
+                    <h2 class="h2 section-heading mb-4 font-bold">How We Engineer</h2>
+                    <p class="section-text font-regular mb-5">
+                        NexTurn is the next generation consulting model focused on
+                        accelerating continuous value creation for clients and partners. We reimagined the foundation
+                        blocks of an enterprise and designed a unique approach that is a combination of many firsts.
+                    </p>
+                    <hr class="hr" />
+                    <h5 class="h5 section-subtitle font-bold mt-5">What We Do</h5>
+                    <p class="section-text font-regular mb-4">
+                        We are building an enterprise model to accelerate
+                        continuous value creation for clients and a happy place for current generation of high
+                        performing engineers.
+                    </p>
+                    <button class="btn btn-primary btn-large btn-section font-bold">
+                        Discover More <i class="fa-solid fa-arrow-right ms-1"></i>
+                    </button>
+                    <div class="d-flex d-md-none align-items-center justify-content-evenly flex-wrap mt-5">
+                        <div class="p-2 text-center square">
+                            <img src="images/engineer-1.png" width="100" alt="engineer-1">
+                        </div>
+                        <div class="p-2 text-center square position-relative">
+                            <img src="images/engineer-2.png" width="100" alt="engineer-1">
+                            <div
+                                class="div-overlay p-2 position-absolute cursor-pointer d-flex align-items-center justify-content-center">
+                                <img src="images/play.png" width="100" alt="play">
+                            </div>
+                        </div>
+                        <div class="text-center p-2 square">
+                            <img src="images/engineer-3.png" width="100" alt="engineer-1">
+                        </div>
+                        <div class="p-2 text-center square">
+                            <img src="images/engineer-4.png" width="100" alt="engineer-1">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="content bg-muted py-md-5 py-3 mb-2">
+        <div class="container d-flex align-items-center justify-content-evenly flex-wrap">
+            <img src="images/client-1.png" class="mx-3 py-3" alt="client-1" width="100">
+            <img src="images/client-2.png" class="mx-3 py-3" alt="client-1" width="100">
+            <img src="images/client-3.png" class="mx-3 py-3" alt="client-1" width="100">
+            <img src="images/client-4.png" class="mx-3 py-3" alt="client-1" width="100">
+            <img src="images/client-5.png" class="mx-3 py-3" alt="client-1" width="100">
+            <img src="images/client-6.png" class="mx-3 py-3" alt="client-1" width="100">
+        </div>
+    </section>
+    <section class="content bg-colored bg-half py-md-5 py-3">
+        <div class="container py-md-5 py-3">
+            <h5 class="h5 section-title text-white font-bold mb-3 d-flex align-items-center justify-content-center">
+                <span class="me-3 bg-white d-inline-block"></span>Why Choose Us
+                <span class="ms-3 bg-white d-inline-block"></span>
+            </h5>
+            <h2 class="h2 section-heading mb-4 font-bold text-white text-center">Why Nexturn?</h2>
+            <div class="row section-cards mt-5 d-flex justify-content-center">
+                <div class="col-4 col-lg-3 card-wrapper">
+                    <div
+                        class="card-item position-relative p-4 d-flex align-items-center justify-content-center flex-column">
+                        <img src="images/remote.png" alt="remote">
+                        <h4 class="h4 text-center font-bold my-4">Remote First</h4>
+                        <p class="font-regular section-overlay">
+                            We are a Remote First organization built on trust that promotes
+                            results-driven culture..
+                        </p>
+                        <button class="btn btn-primary rounded-circle p-2">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-4 col-lg-3 card-wrapper">
+                    <div
+                        class="card-item position-relative p-4 d-flex align-items-center justify-content-center flex-column">
+                        <img src="images/competency.png" alt="remote">
+                        <h4 class="h4 text-center font-bold my-4">Competency</h4>
+                        <p class="font-regular section-overlay">
+                            We are a competency-based organization, having cohesive teams operating
+                            with..
+                        </p>
+                        <button class="btn btn-primary rounded-circle p-2">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-4 col-lg-3 card-wrapper">
+                    <div
+                        class="card-item position-relative p-4 d-flex align-items-center justify-content-center flex-column">
+                        <img src="images/learning.png" alt="remote">
+                        <h4 class="h4 text-center font-bold my-4">Learning experiences</h4>
+                        <p class="font-regular section-overlay">We have created an environment that facilitates adaptive
+                            learning..</p>
+                        <button class="btn btn-primary rounded-circle p-2">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="content py-md-5 py-3 my-md-5 my-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5 class="h5 section-title font-bold mb-3 d-flex align-items-center">
+                        <span class="me-3 d-inline-block"></span>Why Choose Us
+                    </h5>
+                    <h2 class="h2 section-heading mb-4 font-bold">Unlocking your brand's true potential</h2>
+                    <p class="section-text font-regular mb-5">
+                        Explore our case studies to learn how we enable our
+                        clients to build and modernize their products & platforms
+                    </p>
+                    <div class="section-brand mb-5 d-flex align-items-center justify-content-between">
+                        <div class="d-flex align-items-center font-bold">
+                            <img src="images/design-process.png" class="me-2" width="42" alt="design-process">Best
+                            Awarded Company
+                        </div>
+                        <div class="d-flex align-items-center font-bold">
+                            <img src="images/employees.png" class="me-2" width="42" alt="employees">200+ Full Times
+                            Employees
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 px-4 text-center section-award">
+                    <img src="images/awards.png" class="me-3 img-fluid" alt="award">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content py-md-5 py-3 my-md-5 my-3">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-6 timeline-right color-slate">
+                    <div class="w-90 py-3 py-md-5">
+                        <h4 class="h4 section-heading mb-4 font-bold">Enterprise Transformation To Cloud</h4>
+                        <div class="d-flex d-md-none">
+                            <img src="images/enterprisetransformationtocloud.png" width="200" class="me-3 img-fluid"
+                                alt="faq">
+                        </div>
+                        <p class="font-regular">
+                            As a partenr of choice,NexTurn will empower you to empower your Enterprise Transformation to
+                            Cloud decisions
+                            align with your business objectives.
+                        <ul>
+                            <li>Discover to Evaluate Businesse Processes and IT landscape </li>
+                            <li>Strategize with Roadmap to Cloud to maximise ROI and optimize Capex/Opex</li>
+                            <li>Partner to ensure successful GO-LIVE with COTS/homegrown Systems on Cloud</li>
+                        </ul>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 d-none d-md-flex ">
+                    <div class="w-90 px-4 text-center section-faq py-md-5 py-3">
+                        <img src="images/enterprisetransformationtocloud.png" class="me-3 img-fluid" alt="faq">
+                    </div>
+                </div>
+
+                <div class="col-md-6 timeline-right color-tan d-none d-md-flex">
+                    <div class="w-90 px-4 text-center section-faq py-md-5 py-3">
+                        <img src="images/cloudnativeengineering.png" class="me-3 img-fluid" alt="faq">
+                    </div>
+                </div>
+                <div class="col-md-6 timeline-left color-tan">
+                    <div class="w-90 float-md-end py-2 py-md-5">
+                        <h4 class="h4 section-heading mb-4 font-bold">Cloud Native Engineering</h4>
+                        <div class="d-flex d-md-none">
+                            <img src="images/cloudnativeengineering.png" width="200" class="me-3 img-fluid" alt="faq">
+                        </div>
+                        <p class="font-regular">
+                            As a partenr of choice, NexTurn will help enhance customer experiences by accelerating your
+                            cloud initiatives through our engineering capabilities.
+                        <ul>
+                            <li>Accelerate digital transformations with cloud native engineering </li>
+                            <li>Enhance customer experiences and speed to market with cloud native approach</li>
+                            <li>Become future-ready by modernizing legacy applications landscape and building next
+                                generation applications</li>
+                        </ul>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 timeline-right color-coral">
+                    <div class="w-90 py-3 py-md-5">
+                        <h4 class="h4 section-heading mb-4 font-bold">Cloud Data & Analytics</h4>
+                        <div class="d-flex d-md-none">
+                            <img src="images/clouddataandanalytics.png" width="200" class="me-3 img-fluid" alt="faq">
+                        </div>
+                        <p class="font-regular">
+                            NexTurn firmly believes that Data when harnessed correctly,has the potential to drive
+                            decision-making,impact strategy formulation ,improve organisational performance
+                            and increase return on investment.You bring your Data;We bring our congnition to build the
+                            Nextgen Data Platforms.
+                        <ul>
+                            <li>Move to cloud with confidence with our Data Heroes,Gurus and Yogis </li>
+                            <li>Get customized Data solutions for your specific industry</li>
+                            <li>Get Decision Engineering with bespoke cognitive models</li>
+                        </ul>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 d-none d-md-flex">
+                    <div class="w-90 px-4 text-center section-faq py-md-5 py-3">
+                        <img src="images/clouddataandanalytics.png" class="me-3 img-fluid" alt="faq">
+                    </div>
+                </div>
+                <div class="col-md-6 timeline-right color-turqoise d-none d-md-flex">
+                    <div class="w-90 px-4 text-center section-faq py-md-5 py-3">
+                        <img src="images/rightcloudsecurity.png" class="me-3 img-fluid" alt="faq">
+                    </div>
+                </div>
+
+                <div class="col-md-6 timeline-left color-turqoise">
+                    <div class="w-90 float-md-end py-3 py-md-5">
+                        <h4 class="h4 section-heading mb-4 font-bold">Right cloud Security</h4>
+                        <div class="d-flex d-md-none">
+                            <img src="images/rightcloudsecurity.png" width="200" class="me-3 img-fluid" alt="faq">
+                        </div>
+                        <p class="font-regular">
+                            NexTurn helps you operate your cloud infrastructure more efficiently and securely.Whether
+                            consumers are just getting started, migrating to a data center,
+                            or building optimized solutions in the cloud.
+                        <ul>
+                            <li>NexTurn builds and maintains a growing repository of complaince, operational and
+                                security
+                                guardrails that help keep you aligned with your controls. </li>
+                            <li>We ensure that businesses leverage all-around cloud benefits- reduced costs,streamlined
+                                delivery,optimal performance,high reliability and security and more</li>
+                        </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="content py-md-5 py-3 my-md-5 my-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5 class="h5 section-title font-bold mb-3 d-flex align-items-center">
+                        <span class="me-3 d-inline-block"></span>Some FAQ
+                    </h5>
+                    <h2 class="h2 section-heading mb-4 font-bold">Designing your brand's success story</h2>
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button font-bold" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    1. What is cloud computing, and how my business?
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    As a partner of choice, NexTurn will empower you to make your Enterprise
+                                    Transformation to Cloud decisions align with your business objectives.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed font-bold" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                                    aria-controls="collapseTwo">
+                                    2. How can a IT company help my business?
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    As a partner of choice, NexTurn will empower you to make your Enterprise
+                                    Transformation to Cloud decisions align with your business objectives.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed font-bold" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                                    aria-controls="collapseThree">
+                                    3. What services does a IT company offer?
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    As a partner of choice, NexTurn will empower you to make your Enterprise
+                                    Transformation to Cloud decisions align with your business objectives.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed font-bold" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false"
+                                    aria-controls="collapseFour">
+                                    4. How can a IT company help my business?
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    As a partner of choice, NexTurn will empower you to make your Enterprise
+                                    Transformation to Cloud decisions align with your business objectives.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 px-4 text-center section-faq">
+                    <img src="images/faq.png" class="me-3 img-fluid" alt="faq">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="content section-newsletter bg-colored py-md-5 py-3">
+        <div class="container py-4">
+            <h2 class="h2 section-heading mb-3 font-bold text-white text-center">Subcribe To Our Newsletter</h2>
+            <h5 class="h5 section-title text-white font-bold mb-5 text-center">We promise not to spam!</h5>
+            <div class="input-group mx-auto">
+                <input type="email" class="form-control" placeholder="Enter Your Email" aria-label="Enter Your Email"
+                    aria-describedby="button-addon2">
+                <button class="btn btn-outline-secondary" type="button" id="button-addon2">Subscribe</button>
+            </div>
+        </div>
+    </section>
+    <section class="content py-md-5 py-3">
+        <div class="container">
+            <div class="d-flex align-items-center flex-wrap justify-content-evenly">
+                <div class="info-item text-white position-relative p-4 m-3">
+                    <h2 class="h2">150+</h2>
+                    <p class="m-0">Team member</p>
+                    <div class="info-img position-absolute">
+                        <img src="images/team.png" class="img-fluid" alt="team">
+                    </div>
+                </div>
+                <div class="info-item text-white position-relative p-4 m-3">
+                    <h2 class="h2">20+</h2>
+                    <p class="m-0">Winning award</p>
+                    <div class="info-img position-absolute">
+                        <img src="images/award.png" class="img-fluid" alt="team">
+                    </div>
+                </div>
+                <div class="info-item text-white position-relative p-4 m-3">
+                    <h2 class="h2">1k+</h2>
+                    <p class="m-0">Complete projects</p>
+                    <div class="info-img position-absolute">
+                        <img src="images/project.png" class="img-fluid" alt="team">
+                    </div>
+                </div>
+                <div class="info-item text-white position-relative p-4 m-3">
+                    <h2 class="h2">50+</h2>
+                    <p class="m-0">Client reviews</p>
+                    <div class="info-img position-absolute">
+                        <img src="images/review.png" class="img-fluid" alt="team">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="content section-testimonials py-md-5 py-3">
+        <div class="container">
+            <h5 class="h5 section-title font-bold mb-3 d-flex align-items-center justify-content-center">
+                <span class="me-3 d-inline-block"></span>Client Testimonial
+                <span class="ms-3 d-inline-block"></span>
+            </h5>
+            <div class="testimonials d-md-flex d-none my-5 position-relative">
+                <img src="images/bg-map.png" alt="map" class="img-fluid">
+                <div class="testimonial-item testimonial1 position-absolute d-flex align-items-center flex-column">
+                    <div class="testimonial-img overflow-hidden rounded-circle">
+                        <img src="images/testimonial-1.png" alt="testimonial1" width="40">
+                    </div>
+                    <div class="testimonial-content position-relative">
+                        <div class="mt-5 px-4 pb-4 d-flex justify-content-center align-items-center  flex-column">
+                            <h4 class="h4 text-center font-bold">Rocky Dixon</h4>
+                            <p class="m-0 font-regular">
+                                “The services of NexTurn make our team work faster and easier to organize”
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item testimonial2 position-absolute d-flex align-items-center flex-column">
+                    <div class="testimonial-img overflow-hidden rounded-circle">
+                        <img src="images/testimonial-2.png" alt="testimonial2" width="40">
+                    </div>
+                    <div class="testimonial-content position-relative">
+                        <div class="mt-5 px-4 pb-4 d-flex justify-content-center align-items-center  flex-column">
+                            <h4 class="h4 text-center font-bold">Rocky Dixon</h4>
+                            <p class="m-0 font-regular">
+                                “The services of NexTurn make our team work faster and easier to organize”
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item testimonial3 position-absolute d-flex align-items-center flex-column">
+                    <div class="testimonial-img overflow-hidden rounded-circle">
+                        <img src="images/testimonial-3.png" alt="testimonial3" width="40">
+                    </div>
+                    <div class="testimonial-content position-relative">
+                        <div class="mt-5 px-4 pb-4 d-flex justify-content-center align-items-center  flex-column">
+                            <h4 class="h4 text-center font-bold">Rocky Dixon</h4>
+                            <p class="m-0 font-regular">
+                                “The services of NexTurn make our team work faster and easier to organize”
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item testimonial4 position-absolute d-flex align-items-center flex-column">
+                    <div class="testimonial-img overflow-hidden rounded-circle">
+                        <img src="images/testimonial-4.png" alt="testimonial4" width="40">
+                    </div>
+                    <div class="testimonial-content position-relative">
+                        <div class="mt-5 px-4 pb-4 d-flex justify-content-center align-items-center  flex-column">
+                            <h4 class="h4 text-center font-bold">Rocky Dixon</h4>
+                            <p class="m-0 font-regular">
+                                “The services of NexTurn make our team work faster and easier to organize”
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item testimonial5 position-absolute d-flex align-items-center flex-column">
+                    <div class="testimonial-img overflow-hidden rounded-circle">
+                        <img src="images/testimonial-5.png" alt="testimonial5" width="40">
+                    </div>
+                    <div class="testimonial-content position-relative">
+                        <div class="mt-5 px-4 pb-4 d-flex justify-content-center align-items-center  flex-column">
+                            <h4 class="h4 text-center font-bold">Rocky Dixon</h4>
+                            <p class="m-0 font-regular">
+                                “The services of NexTurn make our team work faster and easier to organize”
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item testimonial6 position-absolute d-flex align-items-center flex-column">
+                    <div class="testimonial-img overflow-hidden rounded-circle">
+                        <img src="images/testimonial-6.png" alt="testimonial6" width="40">
+                    </div>
+                    <div class="testimonial-content position-relative">
+                        <div class="mt-5 px-4 pb-4 d-flex justify-content-center align-items-center  flex-column">
+                            <h4 class="h4 text-center font-bold">Rocky Dixon</h4>
+                            <p class="m-0 font-regular">
+                                “The services of NexTurn make our team work faster and easier to organize”
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item testimonial7 position-absolute d-flex align-items-center flex-column">
+                    <div class="testimonial-img overflow-hidden rounded-circle">
+                        <img src="images/testimonial-7.png" alt="testimonial7" width="40">
+                    </div>
+                    <div class="testimonial-content position-relative">
+                        <div class="mt-5 px-4 pb-4 d-flex justify-content-center align-items-center  flex-column">
+                            <h4 class="h4 text-center font-bold">Rocky Dixon</h4>
+                            <p class="m-0 font-regular">
+                                “The services of NexTurn make our team work faster and easier to organize”
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Mobile view testimonial -->
+            <div class="testimonial-mobile mt-4 pt-5 d-flex d-md-none owl-carousel">
+                <div
+                    class="testimonial-box pt-4 d-flex align-items-center flex-column justify-content-center d-flex align-items-center flex-column justify-content-center">
+                    <div class="img-area overflow-hidden">
+                        <img src="images/testimonial-1.png" alt="testimonial1" class="img-fluid">
+                    </div>
+                    <div class="content-area position-relative">
+                        <div class="mt-5 px-4 pb-4 d-flex justify-content-center align-items-center  flex-column">
+                            <h4 class="h4 text-center font-bold">Rocky Dixon</h4>
+                            <p class="m-0 font-regular">
+                                “The services of NexTurn make our team work faster and easier to organize”
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="testimonial-box pt-4 d-flex align-items-center flex-column justify-content-center d-flex align-items-center flex-column justify-content-center">
+                    <div class="img-area overflow-hidden">
+                        <img src="images/testimonial-2.png" alt="testimonial2" class="img-fluid">
+                    </div>
+                    <div class="content-area position-relative">
+                        <div class="mt-5 px-4 pb-4 d-flex justify-content-center align-items-center  flex-column">
+                            <h4 class="h4 text-center font-bold">Rocky Dixon</h4>
+                            <p class="m-0 font-regular">
+                                “The services of NexTurn make our team work faster and easier to organize”
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="testimonial-box pt-4 d-flex align-items-center flex-column justify-content-center d-flex align-items-center flex-column justify-content-center">
+                    <div class="img-area overflow-hidden">
+                        <img src="images/testimonial-3.png" alt="testimonial3" class="img-fluid">
+                    </div>
+                    <div class="content-area position-relative">
+                        <div class="mt-5 px-4 pb-4 d-flex justify-content-center align-items-center  flex-column">
+                            <h4 class="h4 text-center font-bold">Rocky Dixon</h4>
+                            <p class="m-0 font-regular">
+                                “The services of NexTurn make our team work faster and easier to organize”
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="testimonial-box pt-4 d-flex align-items-center flex-column justify-content-center d-flex align-items-center flex-column justify-content-center">
+                    <div class="img-area overflow-hidden">
+                        <img src="images/testimonial-4.png" alt="testimonial4" class="img-fluid">
+                    </div>
+                    <div class="content-area position-relative">
+                        <div class="mt-5 px-4 pb-4 d-flex justify-content-center align-items-center  flex-column">
+                            <h4 class="h4 text-center font-bold">Rocky Dixon</h4>
+                            <p class="m-0 font-regular">
+                                “The services of NexTurn make our team work faster and easier to organize”
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="testimonial-box pt-4 d-flex align-items-center flex-column justify-content-center d-flex align-items-center flex-column justify-content-center">
+                    <div class="img-area overflow-hidden">
+                        <img src="images/testimonial-5.png" alt="testimonial5" class="img-fluid">
+                    </div>
+                    <div class="content-area position-relative">
+                        <div class="mt-5 px-4 pb-4 d-flex justify-content-center align-items-center  flex-column">
+                            <h4 class="h4 text-center font-bold">Rocky Dixon</h4>
+                            <p class="m-0 font-regular">
+                                “The services of NexTurn make our team work faster and easier to organize”
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="testimonial-box pt-4 d-flex align-items-center flex-column justify-content-center d-flex align-items-center flex-column justify-content-center">
+                    <div class="img-area overflow-hidden">
+                        <img src="images/testimonial-6.png" alt="testimonial6" class="img-fluid">
+                    </div>
+                    <div class="content-area position-relative">
+                        <div class="mt-5 px-4 pb-4 d-flex justify-content-center align-items-center  flex-column">
+                            <h4 class="h4 text-center font-bold">Rocky Dixon</h4>
+                            <p class="m-0 font-regular">
+                                “The services of NexTurn make our team work faster and easier to organize”
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-box pt-4 d-flex align-items-center flex-column justify-content-center">
+                    <div class="img-area overflow-hidden">
+                        <img src="images/testimonial-7.png" alt="testimonial7" class="img-fluid">
+                    </div>
+                    <div class="content-area position-relative">
+                        <div class="mt-5 px-4 pb-4 d-flex justify-content-center align-items-center  flex-column">
+                            <h4 class="h4 text-center font-bold">Rocky Dixon</h4>
+                            <p class="m-0 font-regular">
+                                “The services of NexTurn make our team work faster and easier to organize”
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container py-5">
+            <h1 class="h5 section-title font-bold mb-3 d-flex align-items-center">
+                <span class="me-3 d-inline-block"></span>Our Blog
+            </h1>
+            <h2 class="h2 section-heading mb-4 font-bold">Latest News From The Digital World</h2>
+            <div class="section-blog owl-carousel pt-5">
+                <div
+                    class="blog-item position-relative m-4 d-flex align-items-center justify-content-center flex-column">
+                    <img src="images/LatestNewsfromDigitalworld1.png" alt="LatestNewsfromDigitalworld1">
+                    <div class="blog-content p-4">
+                        <div class="blog-info">
+                            <span class="me-2"><i class="fa-solid fa-user me-1"></i>By admin</span>
+                            <span><i class="fa-solid fa-comments me-1"></i>Comments</span>
+                        </div>
+                        <h4 class="h4 font-bold my-3">Parquet Files as a Datastore</h4>
+                        <p class="font-regular">
+                            Apache Parquet is an open source, column-oriented data file format designed for efficient
+                            data storage and
+                        </p>
+                    </div>
+                    <button class="btn btn-large blog-button blog-date font-bold">
+                        22 Dec
+                    </button>
+                    <button class="btn btn-large blog-button font-bold">
+                        Read More <i class="fa-solid fa-arrow-right ms-1"></i>
+                    </button>
+                </div>
+                <div
+                    class="blog-item position-relative m-4 d-flex align-items-center justify-content-center flex-column">
+                    <img src="images/LatestNewsfromDigitalworld2.png" alt="LatestNewsfromDigitalworld2">
+                    <div class="blog-content p-4">
+                        <div class="blog-info">
+                            <span class="me-2"><i class="fa-solid fa-user me-1"></i>By admin</span>
+                            <span><i class="fa-solid fa-comments me-1"></i>Comments</span>
+                        </div>
+                        <h4 class="h4 font-bold my-3">Serverless Architecture on AWS</h4>
+                        <p class="font-regular">
+                            In today’s fast-paced digital landscape, serverless architectures have emerged as a
+                            game-changer for developers
+                        </p>
+                    </div>
+                    <button class="btn btn-large blog-button blog-date font-bold">
+                        15 Sep
+                    </button>
+                    <button class="btn btn-large blog-button font-bold">
+                        Read More <i class="fa-solid fa-arrow-right ms-1"></i>
+                    </button>
+                </div>
+                <div
+                    class="blog-item position-relative m-4 d-flex align-items-center justify-content-center flex-column">
+                    <img src="images/LatestNewsfromDigitalworld3.png" alt="LatestNewsfromDigitalworld3">
+                    <div class="blog-content p-4">
+                        <div class="blog-info">
+                            <span class="me-2"><i class="fa-solid fa-user me-1"></i>By admin</span>
+                            <span><i class="fa-solid fa-comments me-1"></i>Comments</span>
+                        </div>
+                        <h4 class="h4 font-bold my-3">PoV For Monolith To Microservices Migration</h4>
+                        <p class="font-regular">
+                            The traditional monolithic application is a single unit that contains all the functional
+                            components, including
+                        </p>
+                    </div>
+                    <button class="btn btn-large blog-button blog-date font-bold">
+                        12 Mar
+                    </button>
+                    <button class="btn btn-large blog-button font-bold">
+                        Read More <i class="fa-solid fa-arrow-right ms-1"></i>
+                    </button>
+                </div>
+                <div
+                    class="blog-item position-relative m-4 d-flex align-items-center justify-content-center flex-column">
+                    <img src="images/LatestNewsfromDigitalworld1.png" alt="LatestNewsfromDigitalworld1">
+                    <div class="blog-content p-4">
+                        <div class="blog-info">
+                            <span class="me-2"><i class="fa-solid fa-user me-1"></i>By admin</span>
+                            <span><i class="fa-solid fa-comments me-1"></i>Comments</span>
+                        </div>
+                        <h4 class="h4 font-bold my-3">Parquet Files as a Datastore</h4>
+                        <p class="font-regular">
+                            Apache Parquet is an open source, column-oriented data file format designed for efficient
+                            data storage and
+                        </p>
+                    </div>
+                    <button class="btn btn-large blog-button blog-date font-bold">
+                        22 Dec
+                    </button>
+                    <button class="btn btn-large blog-button font-bold">
+                        Read More <i class="fa-solid fa-arrow-right ms-1"></i>
+                    </button>
+                </div>
+                <div
+                    class="blog-item position-relative m-4 d-flex align-items-center justify-content-center flex-column">
+                    <img src="images/LatestNewsfromDigitalworld2.png" alt="LatestNewsfromDigitalworld2">
+                    <div class="blog-content p-4">
+                        <div class="blog-info">
+                            <span class="me-2"><i class="fa-solid fa-user me-1"></i>By admin</span>
+                            <span><i class="fa-solid fa-comments me-1"></i>Comments</span>
+                        </div>
+                        <h4 class="h4 font-bold my-3">Serverless Architecture on AWS</h4>
+                        <p class="font-regular">
+                            In today’s fast-paced digital landscape, serverless architectures have emerged as a
+                            game-changer for developers
+                        </p>
+                    </div>
+                    <button class="btn btn-large blog-button blog-date font-bold">
+                        15 Sep
+                    </button>
+                    <button class="btn btn-large blog-button font-bold">
+                        Read More <i class="fa-solid fa-arrow-right ms-1"></i>
+                    </button>
+                </div>
+                <div
+                    class="blog-item position-relative m-4 d-flex align-items-center justify-content-center flex-column">
+                    <img src="images/LatestNewsfromDigitalworld3.png" alt="LatestNewsfromDigitalworld3">
+                    <div class="blog-content p-4">
+                        <div class="blog-info">
+                            <span class="me-2"><i class="fa-solid fa-user me-1"></i>By admin</span>
+                            <span><i class="fa-solid fa-comments me-1"></i>Comments</span>
+                        </div>
+                        <h4 class="h4 font-bold my-3">PoV For Monolith To Microservices Migration</h4>
+                        <p class="font-regular">
+                            The traditional monolithic application is a single unit that contains all the functional
+                            components, including
+                        </p>
+                    </div>
+                    <button class="btn btn-large blog-button blog-date font-bold">
+                        12 Mar
+                    </button>
+                    <button class="btn btn-large blog-button font-bold">
+                        Read More <i class="fa-solid fa-arrow-right ms-1"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer bg-footer mt-5 pt-5 ">
+        <div class="container">
+            <div class="bottombar">
+                <div class="row d-flex justify-content-evenly">
+                    <div class="col-md-4 p-3 text-white">
+                        <h2>NexTurn</h2>
+                        <p class="pt-3 font-regular">We enable clients to navigate the
+                            paradigm shift in building and modernizing
+                            software products & platforms leveraging
+                            cloud native solutions.</p>
+                        <div class="input-group mx-auto">
+                            <input type="email" class="form-control" placeholder="Email" aria-label="Email"
+                                aria-describedby="button-addon2">
+                            <button class="btn text-white btn-primary border-0" type="button" id="button-addon2"><i
+                                    class="fa-solid fa-paper-plane"></i></button>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 p-3 text-white">
+                        <h4>Services</h4>
+                        <ul class="pt-3 footer-list font-regular">
+                            <li>Enterprise Transformation To Cloud</li>
+                            <li>Cloud Native Engineering</li>
+                            <li>Right Cloud & Security</li>
+                            <li>Cloud Native & Analytics</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 p-3 text-white">
+                        <h4>Contact</h4>
+                        <p class="pt-3">We are just at a click away</p>
+                        <div>
+                            <span class="px-2 text-primary"><i class="fa-solid fa-envelope"></i></span>
+                            <span class="bottombar-text">info@nexturn.com</span>
+                        </div>
+                        <div>
+                            <span class="px-2 text-primary"><i class="fa-solid fa-location-dot"></i></span>
+                            <span class="bottombar-text">Bellevue, Washington</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bottombar-box row my-4 px-3">
+                    <div class="col-md-4 d-flex align-items-center bottombar-item font-regular text-white py-3">
+                        <span class="px-2"><i class="fa-solid fa-phone"></i></span>
+                        <div class="ms-2 text-nowrap font-regular">
+                            Requesting a call: <br />
+                            (0123) 456-789
+                        </div>
+                    </div>
+                    <div class="col-md-4 d-flex align-items-center bottombar-item font-regular text-white py-3">
+                        <span class="px-2"><i class="fa-solid fa-clock"></i></span>
+                        <div class="ms-2 text-nowrap font-regular">
+                            Monday - Friday: <br />
+                            9 am - 8 pm
+                        </div>
+                    </div>
+                    <div class="col-md-4 d-flex align-items-center bottombar-item font-regular text-white py-3">
+                        <span class="px-2"><i class="fa-solid fa-location-dot"></i></span>
+                        <div class="ms-2 font-regular">
+                            3600 Wilshire Boulevard. Suit 1716. Los Angeles, California 90010, US
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="row py-3 footer-bottom d-flex align-items-center justify-content-between">
+
+                    <div class="font-regular col-md-6 px-5 text-white">
+                        <span class="bottombar-text font-regular">© NexTurn.com 2023 | All Rights Reserved</span>
+                    </div>
+                    <div class="font-regular col-md-6 px-5 text-end text-white font-regular">
+                        <span class="bottombar-text me-2">Terms & Conditions</span>
+                        <span class="bottombar-text me-2">Privacy Policy </span>
+                        <span class="bottombar-text">Contact Us</span>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+
+        </div>
+    </section>
+</body>
+
+</html>
+<script>
+    jQuery(function ($) {
+        $('.menu-btn').click(function () {
+            $('.mobile-nav').toggleClass('expand');
+            if ($('.mobile-nav').is(':visible')) {
+                $('body').addClass("no-scroll");
+            } else {
+                $('body').removeClass("no-scroll");
+            }
+        })
+        $('.close').click(function () {
+            $('.mobile-nav').toggleClass('expand');
+            if ($('.mobile-nav').is(':visible')) {
+                $('body').addClass("no-scroll");
+            } else {
+                $('body').removeClass("no-scroll");
+            }
+        })
+    })
+    $('.owl-carousel').owlCarousel({
+        autoplay: false,
+        items: 2,
+        nav: true,
+        navText: ['<i class="fa-solid fa-arrow-left"></i>', '<i class="fa-solid fa-arrow-right"></i>'],
+        margin: 30,
+        dots: false,
+        responsive: {
+            320: {
+                items: 1,
+            },
+            600: {
+                items: 2,
+            },
+            767: {
+                items: 2,
+            },
+            990: {
+                items: 3,
+            },
+        }
+    })
+</script>

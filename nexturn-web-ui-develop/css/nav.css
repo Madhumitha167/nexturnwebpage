@@ -1,0 +1,75 @@
+.header-nav {
+  filter: drop-shadow(0px 0px 60px rgba(0, 0, 0, 0.05));
+  height: 90px;
+}
+.navbar-brand {
+  color: #4800ff !important;
+  font-weight: 600;
+  font-size: 1.2em;
+}
+.navbar-nav li {
+  padding: 0 15px;
+}
+.navbar-nav li a{
+  font-size: 14px;
+  color: #191919;
+}
+.navbar-nav li .nav-link.active {
+  font-size: 14px;
+  color: #0132e0;
+}
+
+/*--------Mobile Nav---------*/
+.no-scroll {
+  overflow: hidden;
+}
+.close {
+  position: absolute;
+  right: 32px;
+  top: 32px;
+  width: 32px;
+  height: 32px;
+  opacity: 0.8;
+}
+.close:hover {
+  opacity: 1;
+}
+.close:before,
+.close:after {
+  position: absolute;
+  left: 15px;
+  content: " ";
+  height: 33px;
+  width: 2px;
+  background-color: #ffffff;
+}
+.close:before {
+  transform: rotate(45deg);
+}
+.close:after {
+  transform: rotate(-45deg);
+}
+
+.mobile-nav.expand {
+  display: flex !important;
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+  background: rgba(1,50,224, 0.99);
+  background-position: center;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+}
+.mobile-nav ul {
+  list-style: none;
+}
+.mobile-nav ul li {
+  font-size: 1.5rem;
+  padding: 15px;
+  color: #ffffff;
+}
+.mobile-nav ul li .active {
+  color: #c1cde3;
+}

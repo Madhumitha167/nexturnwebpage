@@ -1,0 +1,2740 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Nexturn Site</title>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+        integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="assets/fontawesome/css/fontawesome.min.css" />
+    <link rel="stylesheet" href="assets/fontawesome/css/brands.min.css" />
+    <link rel="stylesheet" href="assets/fontawesome/css/solid.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body>
+    <section class="header">
+        <div class="topbar">
+            <div class="container d-flex align-items-center justify-content-evenly">
+                <div class="topbar-item font-regular">
+                    <span class="px-2"><i class="fa-solid fa-envelope"></i></span>
+                    <span class="topbar-text">info@nexturn.com</span>
+                </div>
+                <div class="topbar-item font-regular">
+                    <span class="px-2"><i class="fa-solid fa-location-dot"></i></span>
+                    <span class="topbar-text">Bellevue, Washington</span>
+                </div>
+                <div class="topbar-item font-regular">
+                    <span class="px-2"><i class="fa-solid fa-phone"></i></span>
+                    <span class="topbar-text">(0123) 456-789</span>
+                </div>
+                <div class="topbar-item">
+                    <div class="top-socials d-flex align-items-center justify-content-evenly">
+                        <span class="px-2"><i class="fa-brands fa-facebook-f"></i></span>
+                        <span class="px-2"><i class="fa-brands fa-instagram"></i></span>
+                        <span class="px-2"><i class="fa-brands fa-twitter"></i></span>
+                        <span class="px-2"><i class="fa-brands fa-linkedin"></i></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar-expand-md bg-white header-nav">
+            <div class="container py-4">
+                <div class="row">
+                    <div class="col-md-2 col-4">
+                        <a class="navbar-brand" href="#">
+                            <img src="images/logo.png" alt="Logo" height="30">
+                        </a>
+                    </div>
+                    <div class="d-none col-md-10 d-md-flex justify-content-center">
+                        <div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item font-bold">
+                                    <a class="nav-link" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item font-bold">
+                                    <a class="nav-link active" aria-current="page" href="about.html">About Us</a>
+                                </li>
+                                <li class="nav-item font-bold">
+                                    <a class="nav-link" href="#">Services</a>
+                                </li>
+                                <li class="nav-item font-bold">
+                                    <a class="nav-link" href="#">Careers</a>
+                                </li>
+                                <li class="nav-item font-bold">
+                                    <a class="nav-link" href="blog.html">Blog</a>
+                                </li>
+                                <li class="nav-item font-bold">
+                                    <a class="nav-link" href="contact.html">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="d-flex d-md-none justify-content-end col-8">
+                        <a href="javascript:;" class="menu-btn">
+                            <img src="images/hamburger.png" width="32" alt="menu">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="position-fixed d-none mobile-nav align-items-center justify-content-center">
+            <a href="javascript:;" class="close"></a>
+            <ul class="nav-list px-5">
+                <li class="nav-item font-medium">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item font-medium">
+                    <a class="nav-link active disabled" aria-current="page" href="about.html">About Us</a>
+                </li>
+                <li class="nav-item font-medium">
+                    <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item font-medium">
+                    <a class="nav-link" href="#">Careers</a>
+                </li>
+                <li class="nav-item font-medium">
+                    <a class="nav-link" href="blog.html">Blog</a>
+                </li>
+                <li class="nav-item font-medium">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="banner-about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-4 mx-auto about-content d-flex flex-column align-items-center pt-5">
+                    <h2 class="h2 about-heading font-bold mb-4">TEAM WORK</h2>
+                    <p class="about-text font-regular text-center mb-4">
+                        We love what we do and we do it with passion. We value the experimentation of the message and
+                        smart incentives.
+                    </p>
+                    <button class="btn btn-primary btn-large btn-section font-bold py-2">
+                        See our work force
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-about my-5 py-5">
+        <div class="container">
+            <p class="mb-3 font-bold text-dark text-center px-4">
+                We are building an enterprise model to accelerate continuous value creation for clients and a happy
+                place for current generation of high performing engineers.
+            </p>
+            <p class="text-center font-regular">
+                The future is different. Exciting. Because the combination of digital technologies and pandemic
+                experience have brought in a new sense of urgency to change, to adapt, to transform. In response,
+                organizations have accelerated their innovation & transformation journey by fully embracing cloud as the
+                core. In this new era, we believe organizations need to drive rapid experimentation, short innovation
+                cycles and deliver incremental business value frequently. And a partner who is built for this purpose. A
+                partner who has the wisdom of the past and the courage to build a new future. We have built a new model
+                that takes advantage of cloud capabilities, high performing talent with product mindset, remote working
+                and an operating culture built on autonomy, results and trust.
+            </p>
+        </div>
+    </section>
+    <section class="section-engineer my-5 py-5">
+        <div class="container">
+            <h3 class="text-primary font-medium h3 text-center">How We Engineer</h3>
+            <h5 class="font-bold h5 mb-4 text-center">Our unique approach is a combination of many firsts.</h5>
+            <p class="mb-5 font-regular text-center px-4">
+                NexTurn is the next generation consulting model focused on accelerating continuous value creation for
+                clients and partners. We reimagined the foundation blocks of an enterprise and designed a unique
+                approach that is a combination of many firsts.
+            </p>
+            <div class="row engineer-item">
+                <div class="col-4 my-4 d-flex align-items-center flex-column">
+                    <div class="thumb-icon color-olive">
+                        <img src="images/graph.svg" alt="graph" width="18">
+                    </div>
+                    <span class="thumb-text font-semibold">ORG DESIGN</span>
+                </div>
+                <div class="col-4 my-4 d-flex align-items-center flex-column">
+                    <div class="thumb-icon color-aqua">
+                        <img src="images/success.svg" alt="success" width="18">
+                    </div>
+                    <span class="thumb-text font-semibold">TALENT FIRST</span>
+                </div>
+                <div class="col-4 my-4 d-flex align-items-center flex-column">
+                    <div class="thumb-icon color-peach">
+                        <img src="images/market.png" alt="market" width="18">
+                    </div>
+                    <span class="thumb-text font-semibold">TRUST FIRST RELATIONS</span>
+                </div>
+                <div class="col-4 my-4 d-flex align-items-center flex-column">
+                    <div class="thumb-icon color-purple">
+                        <img src="images/graph.svg" alt="graph" width="18">
+                    </div>
+                    <span class="thumb-text font-semibold">CLOUD FIRST SOLUTIONS</span>
+                </div>
+                <div class="col-4 my-4 d-flex align-items-center flex-column">
+                    <div class="thumb-icon color-lime">
+                        <img src="images/success.svg" alt="success" width="18">
+                    </div>
+                    <span class="thumb-text font-semibold">AGILE FIRST EXECUTION</span>
+                </div>
+                <div class="col-4 my-4 d-flex align-items-center flex-column">
+                    <div class="thumb-icon color-blue">
+                        <img src="images/market.png" alt="market" width="18">
+                    </div>
+                    <span class="thumb-text font-semibold">REMOTE FIRST DELIVERY</span>
+                </div>
+                <div class="col-4 my-4 d-flex align-items-center flex-column">
+                    <div class="thumb-icon color-orange">
+                        <img src="images/graph.svg" alt="graph" width="18">
+                    </div>
+                    <span class="thumb-text font-semibold">PRODUCT FIRST MINDSET</span>
+                </div>
+                <div class="col-4 my-4 d-flex align-items-center flex-column">
+                    <div class="thumb-icon color-green">
+                        <img src="images/success.svg" alt="success" width="18">
+                    </div>
+                    <span class="thumb-text font-semibold">CREATE FIRST LEARNING</span>
+                </div>
+                <div class="col-4 my-4 d-flex align-items-center flex-column">
+                    <div class="thumb-icon color-pink">
+                        <img src="images/market.png" alt="market" width="18">
+                    </div>
+                    <span class="thumb-text font-semibold">OUTCOME BASED ENGAGEMENT</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-about my-5 py-5">
+        <div class="container">
+            <h3 class="text-primary font-medium h3 text-center">Meet The Team</h3>
+            <div class="row my-3">
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team1.jpeg" alt="team1">
+                        <p class="team-overlay position-absolute text-white text-center"></p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Bhaskar</h5>
+                    <p class="text-center">Founder</p>
+                    <a href="https://www.linkedin.com/in/bhaskar-vadlamani-698b94a/" target="blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team3.jpeg" alt="team3">
+                        <p class="team-overlay position-absolute text-white text-center"></p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Naren</h5>
+                    <p class="text-center">Founder</p>
+                    <a href="https://www.linkedin.com/in/naren-gogula-15040516/" target="blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team4.jpeg" alt="team4">
+                        <p class="team-overlay position-absolute text-white text-center"></p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Deva</h5>
+                    <p class="text-center">Founder</p>
+                    <a href="https://www.linkedin.com/in/deva-senapathy-8711361/" target="blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team2.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center"></p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Saravanan</h5>
+                    <p class="text-center">Chief Business Officer - Founding Partner</p>
+                    <a href=https://www.linkedin.com/in/saravanan-karunamurthy-b871397/ target="blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team5.jpeg" alt="team5">
+                        <p class="team-overlay position-absolute text-white text-center"></p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Baba</h5>
+                    <p class="text-center">Chief Transformation Officer - Founding Partner</p>
+                    <a href="https://www.linkedin.com/in/baba-konatham/" target="blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team6.jpeg" alt="team6">
+                        <p class="team-overlay position-absolute text-white text-center"></p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Siva</h5>
+                    <p class="text-center">Chief Technology Officer - Founding Partner</p>
+                    <a href="https://www.linkedin.com/in/siva-komperla-49a58b31/" target="blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team7.jpeg" alt="team7">
+                        <p class="team-overlay position-absolute text-white text-center"></p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Harsha</h5>
+                    <p class="text-center">Chief Cloud Officer - Founding Partner</p>
+                    <a href="https://www.linkedin.com/in/hkudarav-a2a492175/" target="blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team8.jpeg" alt="team8">
+                        <p class="team-overlay position-absolute text-white text-center"></p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Gunjan</h5>
+                    <p class="text-center">Chief Delivery Officer - Founding Partner</p>
+                    <a href="https://www.linkedin.com/in/gunjan-sinha-54771024a/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team9.jpeg" alt="team8">
+                        <p class="team-overlay position-absolute text-white text-center">Product and cybersecurity
+                            expert who implemented critical security concepts like Defense in Depth and Principle of
+                            Least Privilege. He is passionate about cybersecurity as a practice and likes to travel and
+                            explore new destinations.</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Avinash</h5>
+                    <p class="text-center">Cybersecurity Architect</p>
+                    <a href="https://www.linkedin.com/in/avinash-kumar-2b943255/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team10.jpeg" alt="team8">
+                        <p class="team-overlay position-absolute text-white text-center">NexTurn’s HR lead passionate
+                            about grooming talent and scaling organizations. He is a multi-talented personality with
+                            keen interest in endurance sports (cycled from Manali to Leh), music, reading books & Solo
+                            Travel.</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Vaibhav</h5>
+                    <p class="text-center">HR Lead</p>
+                    <a href="https://www.linkedin.com/in/vaibhav-apte-a3b31421/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team11.jpeg" alt="team8">
+                        <p class="team-overlay position-absolute text-white text-center">Appu comes with
+                            cross-functional experience in business development, marketing, sales enablement and
+                            corporate planning. He is a technology enthusiast, and passionate about creating value for
+                            stakeholders and society at large. In his free time, he plays chess and follows football
+                            leagues.</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Appu</h5>
+                    <p class="text-center">Client Solutions Partner</p>
+                    <a href="https://www.linkedin.com/in/apparajithan-vg-4058965/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team12.jpeg" alt="team8">
+                        <p class="team-overlay position-absolute text-white text-center">A cloud architect passionate
+                            about software engineering & cloud architecture. He spends his free time learning new
+                            things, teaching, watching movies, gaming & reading books.</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Murugan</h5>
+                    <p class="text-center">Cloud Architect</p>
+                    <a href="https://www.linkedin.com/in/murugan-nagarajan/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team13.jpg" alt="team8">
+                        <p class="team-overlay position-absolute text-white text-center">A full stack engineer
+                            passionate about data science using ML & AI. In NexTurn, he would be found discussing a new
+                            technology or busy with some interesting data assignment.</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Rahul</h5>
+                    <p class="text-center">Data Architect</p>
+                    <a href="https://www.linkedin.com/in/rvliam/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team14.jpeg" alt="team8">
+                        <p class="team-overlay position-absolute text-white text-center">Avinash has designed,
+                            architected and delivered large scale enterprise applications. When he is not at work, he
+                            spends his free time watching TV, playing games and reading about new things. He is
+                            passionate about learning economics and history.</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Kala</h5>
+                    <p class="text-center">Sr. Cloud Architect</p>
+                    <a href="https://www.linkedin.com/in/subba-rao-avinash-kala/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team15.jpeg" alt="team8">
+                        <p class="team-overlay position-absolute text-white text-center">As a DevOps Specialist, Prakash
+                            is very happy to make life easy for developers, and reducing time to market. He understands
+                            SDLC pain points, identifies areas for improvements, suggests and implements solutions in a
+                            systematic way, leveraging automation techniques & tools. Interested in organic farming and
+                            experimenting in agriculture.</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Prakash</h5>
+                    <p class="text-center">Sr. Cloud Architect</p>
+                    <a href="https://www.linkedin.com/in/prakakrishna/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team16.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">Inquisitive. That’s one way to
+                            put it. Passionate coder, loves building stuff and rejoices in learning new things. A sales
+                            guy turned coder, Virinchi is a Developer and is elated to take the NexTurn.</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Nada</h5>
+                    <p class="text-center">Cloud Software Engineer</p>
+                    <a href="https://www.linkedin.com/in/nada-virinchi-710bba10a/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team17.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">Experience in architecting,
+                            designing, and developing performant and resilient microservice based application. Certified
+                            AWS Solution Architect Associate.</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Sushree Mohapatra</h5>
+                    <p class="text-center">Cloud Architect</p>
+                    <a href="https://www.linkedin.com/in/sushree-mohapatra-8ab1aa82/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team18.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">Having 15 years of Finance &
+                            accounts experience.</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Hema Jayakumar</h5>
+                    <p class="text-center">Finance Manager</p>
+                    <a href="https://www.linkedin.com/in/hema-jayakumar-b11382196/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team19.jpg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">SRE with experience in
+                            multi-cloud and DevOps tools to automate infrastructure provisioning and to deploy
+                            applications with security.</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Shiva Ranjani</h5>
+                    <p class="text-center">Engineer</p>
+                    <a href="https://www.linkedin.com/in/shiva-kota/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team20.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">With several years of
+                            experience in UI/UX & Visual Design, he literally breathes design. His expertise in Adobe
+                            suites with an eye for detailing in design concepts has earned him many awards &
+                            recognitions. He loves to spend time with family & is a gadget freak.</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Junaiz</h5>
+                    <p class="text-center">UX Architect</p>
+                    <a href="https://www.linkedin.com/in/junaizmohd/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team21.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center"></p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Rajesh P</h5>
+                    <p class="text-center">SRE</p>
+                    <a href="https://www.linkedin.com/in/rajesh-pragnapuram-726132116/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team22.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">Data Engineer with experience
+                            in fraud detection analytics. When not at work, he likes to spend time coding, working on
+                            cricket analytics, watching cricket and reading about new things.</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Surya</h5>
+                    <p class="text-center">Sr. Data Engineer</p>
+                    <a href="https://www.linkedin.com/in/surya-pratap-tejomurtula-48996a105/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team23.jpg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">Tech Professional with skill in
+                            designing, developing Web-based and Enterprise applications using JAVA Enterprise
+                            application development technologies in various domains. Keen interest in learning advance
+                            DSA and low level design solutions.</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Malay Ranjan</h5>
+                    <p class="text-center">Java Developer</p>
+                    <a href="https://www.linkedin.com/in/malay-ranjan-swain-799b791a2/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team24.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">Experienced engineer with a
+                            demonstrated history of working in Software industry in Telecom, Datacenter and Banking
+                            Domains. Worked on various Web Development and Automation Projects. Also worked with vendors
+                            in the deployment of Cloud and DevOps Solutions based on requirements</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Shireesha</h5>
+                    <p class="text-center">SRE</p>
+                    <a href="https://www.linkedin.com/in/shireesha-chintalapati-ab946896/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team25.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center"></p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Kaushik</h5>
+                    <p class="text-center">DevOps Architect</p>
+                    <a href="https://www.linkedin.com/in/kaushik-seetharam-195130108/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team26.jpg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">Over 15 years of extensive IT
+                            experience in Requirement Analysis, development, production support, solution designing
+                            across banking, brokerage and logistics domain. Skilled in Data analytics (ML, Predictive
+                            analytics, Data engineering)</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Chan</h5>
+                    <p class="text-center">Data Architect</p>
+                    <a href="https://www.linkedin.com/in/chanrang/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team101.jpg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">Dinesh comes with 12+ years of
+                            experience in IT and majorly into Test automation. He has completed Bachelors in Computer
+                            Application, he is based out of Chennai and he likes to play Cricket, Badminton and TT.</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Dinesh S</h5>
+                    <p class="text-center">Senior QA Tester</p>
+                    <a href="https://www.linkedin.com/in/dinesh-s09/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team27.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">Aspiring full stack developer
+                            with more than a decade of experience in Software development of IT industry. Mostly
+                            contributed in Mobile app development along with playing support roles like team management,
+                            Onsite co ordination at offshore and Onsite support. Also worked with Java applications and
+                            UI projects using React, Ionic and bootstrap..</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Jeevanandham R</h5>
+                    <p class="text-center">Mobility Architect</p>
+                    <a href="https://www.linkedin.com/in/jeevanandham-raja-9641ba75/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team28.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">DotNet architect with exposure
+                            to multiple verticals. Loves playing sports like badminton & table Tennis. Enjoys exploring
+                            new cultures and meeting new people.</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Lalith Kamana</h5>
+                    <p class="text-center">DotNet Architect</p>
+                    <a href="https://www.linkedin.com/in/lalith-kamana-1436b3233/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team29.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center"></p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Ravi Kumar</h5>
+                    <p class="text-center">Associate Data architect</p>
+                    <a href="https://www.linkedin.com/in/ravi-kumar-31562115/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team30.jpg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">I Comes with end to end
+                            technical recruitment experience and passionate about learning new things to grow in my
+                            carrier and love to cook and I will draw some picture to get relax from my things</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Kancharla Aruna</h5>
+                    <p class="text-center">Senior Talent Acquisition</p>
+                    <a href="https://www.linkedin.com/in/aruna-shetty-790834168/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team31.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">Having 3.6 years’ experience in
+                            bigdata technologies. Previously worked in Cognizant technology solutions and pvt ltd(CTS).
+                            Worked in Pharma and mobile application domains. Received Best technical support, best team
+                            encouragement and respect towards work awards in previous projects.</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Jhansi Lakshmi</h5>
+                    <p class="text-center">Partner- Cloud Data Engineer</p>
+                    <a href="https://www.linkedin.com/in/jhansi-lakshmi-a08a5b244/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team32.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center"></p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Srikant</h5>
+                    <p class="text-center">Account Manager</p>
+                    <a href="https://www.linkedin.com/in/srikant-deshpande-63501416/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team33.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">As a senior Data Engineer,
+                            Hardik has extensively worked on tools and technologies like Dataiku, Databricks, Power BI,
+                            Power Apps, Python, SQL etc. He is currently based out of Mumbai and enjoy playing cricket
+                            and badminton.</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Hardik</h5>
+                    <p class="text-center">Senior Data Engineer</p>
+                    <a href="https://www.linkedin.com/in/hardik-verma-810ab6a0/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team34.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">Binu joined NexTurn as an UI
+                            architect with 14 years of experience in various UI technologies. He likes cooking and
+                            watching movies in his free time.</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Binu</h5>
+                    <p class="text-center">UI Architect</p>
+                    <a href="https://www.linkedin.com/in/binu-g/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team35.jpg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">Edwin joined as a Cloud
+                            Architect into NexTurn family who has 15+ years of experience in various Microsoft
+                            Technologies. He likes to play Cricket, Problem solving games & Cooking at his free time.
+                        </p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Edwin</h5>
+                    <p class="text-center">Cloud Architect</p>
+                    <a href="https://www.linkedin.com/in/edwingurusingh/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team36.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center"></p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">RK</h5>
+                    <p class="text-center">Sr. Cloud Architect</p>
+                    <a href="javascript:;" class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team37.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center"></p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Raghuraman</h5>
+                    <p class="text-center">Cloud Architect</p>
+                    <a href="https://www.linkedin.com/in/raghuraman-g-1b468a12/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team38.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">Paasionate about Quality</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Anuradha</h5>
+                    <p class="text-center">Associate Test Architect</p>
+                    <a href="https://www.linkedin.com/in/anuradha-ramineni-b9b44026/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team39.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">Passionate Software Engineer in
+                            developing web applications and back-end systems</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Surendra</h5>
+                    <p class="text-center">Cloud Full Stack Architect</p>
+                    <a href="https://www.linkedin.com/in/surendra-raja-04a24418/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team40.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">Jeshee Puthalath comes with 21
+                            years of IT experience in Delivery Management, Software Testing (Manual & Automation), &
+                            Test Consulting. He is Certified PMP and Scrum Master professional.</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Jeshee</h5>
+                    <p class="text-center">Delivery Head - QA</p>
+                    <a href="https://www.linkedin.com/in/jeshee/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team41.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center"></p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Stephan</h5>
+                    <p class="text-center">Front-end Engineer</p>
+                    <a href="https://www.linkedin.com/in/jaba-stephan-ab681a77/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team42.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">Experienced program manager
+                            with 17+ years of experience with a demonstrated history of working in the information
+                            technology and services industry. Owned the product life cycle from initial concept to
+                            delivery, defining the product vision and strategy, Empathizing and understanding the
+                            business model, identifying possibilities of automation and providing technology solutions
+                            with business intelligence and machine learning.</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Prajisha</h5>
+                    <p class="text-center">Principal Program Manager</p>
+                    <a href="https://www.linkedin.com/in/prajisha-m-veedu-6b609a55/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team43.png" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">Hi, I am Akash , I am a
+                            professional software engineer trained as full stack developer in “Nexturn”..</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Akash S</h5>
+                    <p class="text-center">Cloud Full Stack-Junior Engineer</p>
+                    <a href="https://www.linkedin.com/in/akash-s-20858720b/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team44.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center"></p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Rohin</h5>
+                    <p class="text-center">Data Consultant</p>
+                    <a href="https://www.linkedin.com/in/rohin-dadina/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team102.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center"></p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Shilpa</h5>
+                    <p class="text-center">Business Analyst</p>
+                    <a href="https://www.linkedin.com/in/shilpa-s-upadya-7384851b/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team45.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">13 years of experience in Java
+                        </p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Sasmita</h5>
+                    <p class="text-center">Cloud Java Lead</p>
+                    <a href="https://www.linkedin.com/in/sasmita-mohapatra-473179284/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team46.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">Avinash has joined NexTurn as a
+                            Cloud Technology Lead with a total experience of 10 years, working in MNCs and startups
+                            where he has been involved in the end-to-end life cycle of numerous projects. His primary
+                            expertise is in UI/UX but he has experience working on server side, DB and DevOps. He’s a
+                            cinephile and casual gamer. He likes gardening, reading, and traveling.</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Avinash</h5>
+                    <p class="text-center">Cloud Technology Lead</p>
+                    <a href="https://www.linkedin.com/in/avinashvraj/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team47.jpg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">A Database Consultant with over
+                            20+ years of Experience and Passionate about Designing and Creating Data Models.</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Prasad Babu</h5>
+                    <p class="text-center">Sr. Database consultant</p>
+                    <a href="https://www.linkedin.com/in/prasad-babu-v-s-betha-09b6b516/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team48.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center"></p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Anirban</h5>
+                    <p class="text-center">Sr. Cloud Architect</p>
+                    <a href="https://www.linkedin.com/in/anirbanchowdhurycs08/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team49.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">Hi I am Sudharshan Having an
+                            experience of 5 Years in HR Recruitment</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Sudharshan Reddi</h5>
+                    <p class="text-center">HR Talent Acquisition</p>
+                    <a href="https://www.linkedin.com/in/sudharshan-reddi-a077b422b/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team50.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center"></p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Vasanth</h5>
+                    <p class="text-center">Architect</p>
+                    <a href="javascript:;" class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team51.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">Professional with a Decade of
+                            experience working into Data Analytics and Automation framework.</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Himanshu</h5>
+                    <p class="text-center">Data Scientist</p>
+                    <a href="https://www.linkedin.com/in/himanshu-mishra-851459b5/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team52.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">I have 5+ years of Experience
+                            in Java and Dot Net. Knowledge on Hosting Web Applications on IIS Server on Windows 2012 R2.
+                        </p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Prasanna Kumar</h5>
+                    <p class="text-center">Java Engineer</p>
+                    <a href="https://www.linkedin.com/in/prasanna-kumar-b300059b/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team53.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">Based out from Hyderabad,
+                            Completed B.Tech in Computer Science, having good exposure in DevOps, Hobbies are listening
+                            to music, cooking and travelling</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Prasanna Lakshmi</h5>
+                    <p class="text-center">Cloud DevOps Engineer</p>
+                    <a href="https://www.linkedin.com/in/lakshmi-prasanna-cheemalamarri/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team54.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">I am based out of Rajasthan and
+                            like to cook and read books in my free time.</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Priyanka</h5>
+                    <p class="text-center">Cloud QA Automation Lead</p>
+                    <a href="https://www.linkedin.com/in/priyanka-nagori-423b6359/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team55.jpg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">Youngest Eagle eye in desighn.
+                        </p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Prithivi</h5>
+                    <p class="text-center">UX Engineer</p>
+                    <a href="https://www.linkedin.com/in/prithivi-kannah-4606aa253/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team56.png" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">I have 14 years of experience
+                            in Data ware housing, Data architecture, Data Modeling and ETL pipeline creation.</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Chandan Singh</h5>
+                    <p class="text-center">Data Architect</p>
+                    <a href="https://www.linkedin.com/in/chandansinghwork7/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team57.jpg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">Myself Manish Kumar Tiwari. I
+                            am a fresher having knowledge in Spring Boot, Flutter, MySQL.</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Manish</h5>
+                    <p class="text-center">Associate Cloud Front End Engineer</p>
+                    <a href="https://www.linkedin.com/in/manish-kumar-tiwari-72339a20b/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team58.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">Total 18 + years of experience,
+                            test automation, Site Reliability Engineering and DevOps Agile scrum, Jenkins , chef, Git ,
+                            SVN , Rundeck, Docker, AWS, Azure, Kubernetes, Zabbix, New Relic, Splunk. Rally, Jira,
+                            Ansible, Terraform, ELK, Splunk, project management, Selenium, TestNG,Junit,- Certified AWS
+                            associate professional, Certified Scrum Master Certifications: AWS solutions architect –
+                            Associate, Certified Scrum Master</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Madan</h5>
+                    <p class="text-center">Princile SRE</p>
+                    <a href="https://www.linkedin.com/in/madan-kumar-t/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team59.jpg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">Overall, 17 years of experience
+                            in managing large and complex engagements. Diligent lead/ manager offering a proven record
+                            of success leading all phases of technology projects.</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Swathi</h5>
+                    <p class="text-center">Senior Cloud Program Manager</p>
+                    <a href="https://www.linkedin.com/in/swathi-buppergudem-b4981a17/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team60.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">Experienced engineer working in
+                            Software industry in Insurance, Banking and Healthcare Domains. worked with multiple clients
+                            in the deployment of Cloud and DevOps Solutions based on requirements</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Sreenivas V</h5>
+                    <p class="text-center">Devops Engineer</p>
+                    <a href="https://www.linkedin.com/in/sreenivas-v-008412107/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team61.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center"></p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Narayana Babu </h5>
+                    <p class="text-center">Cloud Project Manager</p>
+                    <a href="https://www.linkedin.com/in/narayan-babu-19a1044/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team62.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">As part of HR Team, playing an
+                            important role in building a strong employer brand for NexTurn to ensure we attract, hire
+                            and retain the most qualified employees</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Swetalina</h5>
+                    <p class="text-center">HR- Recruiter</p>
+                    <a href="https://www.linkedin.com/in/swetalina-nath-38973425/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team63.jpg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center"></p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Nelson</h5>
+                    <p class="text-center">Security Engineer</p>
+                    <a href="https://www.linkedin.com/in/nelson-dayan/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team64.jpg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">I am passionate about learning
+                            new things . I Love to Cook Food, Travel to new places.</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Akshat Jain</h5>
+                    <p class="text-center">Cloud Full Stack-Junior Engineer</p>
+                    <a href="https://www.linkedin.com/in/akshat-jain-6a097617a/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team65.jpg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">I have completed my graduation
+                            B.Tech from Madhav Institute of Technology and Science Gwalior. I am working as a cloud full
+                            stack junior engineer in NexTurn skilled at Java , Reactjs , javascript , SQL. ability to
+                            quickly learn and master new technologies and working in both team and self directed
+                            settings.</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Srashti Bansal</h5>
+                    <p class="text-center">Cloud Full Stack-Junior Engineer</p>
+                    <a href="https://www.linkedin.com/in/srashti-bansal-7237a2215/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team66.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">I’m a Cloud Full-Stack Engineer
+                            in NexTurn with a passion for learning new things and like to explore new technology Or
+                            Encourage readers to find out more</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Chetan Meena</h5>
+                    <p class="text-center">Cloud Full Stack-Junior Engineer</p>
+                    <a href="https://www.linkedin.com/in/chetan-meena-771004237/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team67.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">I am Cloud Full Stack-Junior
+                            Engineer at Nexturn Technology . I have skills like Java , Spring Boot , MYSQL , HTML, CSS ,
+                            React . I am a fresher . I have an ability to do any work and I give my best to enhance my
+                            skills and knowledge .</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Deeksha</h5>
+                    <p class="text-center">Cloud Full Stack-Junior Engineer</p>
+                    <a href="https://www.linkedin.com/in/deeksha-kain-576a841aa/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team68.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">I am always open for
+                            challenging roles and Dedicated to my work, likes to explore new technology. I got 2% topper
+                            certificate in Data science from NPTEL. and in my free time I read books and watch movies.
+                        </p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Manas</h5>
+                    <p class="text-center">Cloud Full Stack-Junior Engineer</p>
+                    <a href="https://www.linkedin.com/in/manas-gupta-313576179/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team69.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">I am a Cloud Full Stack-Junior
+                            Engineer in NexTurn. Also an accomplished coder and programmer. and I enjoy using my skills
+                            to contribute to the exciting technologies that happen every day at NexTurn. I graduated
+                            from the Madhav Institute of Technology & Science in 2022 with a Bachelor’s (Hons.) Degree.
+                        </p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Robin Singh Kaurav</h5>
+                    <p class="text-center">Cloud Full Stack-Junior Engineer</p>
+                    <a href="https://www.linkedin.com/in/robin-singh-kaurav-9633b420b/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team70.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">I would like to expand my
+                            knowledge by working hard and learning as much as possible and achieve a responsible
+                            position and explore myself more efficiently in an industry.</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Atul Patel</h5>
+                    <p class="text-center">Cloud Full Stack-Junior Engineer</p>
+                    <a href="https://www.linkedin.com/in/atul-patel-350572175/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team71.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">I’m a Cloud full stack junior
+                            engineer in Nexturn Technology. I accomplished programmer and enjoys using my skills to
+                            contribute to the exciting work of Nexturn Technology.</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Anshul Singh</h5>
+                    <p class="text-center">Cloud Full Stack-Junior Engineer</p>
+                    <a href="https://www.linkedin.com/in/anshulsingh1999/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team72.jpg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">Cloud Full stack software
+                            engineer mainly building web applications. In free time I love reading books and playing
+                            badminton and carrom.</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Anant</h5>
+                    <p class="text-center">Cloud Full Stack-Junior Engineer</p>
+                    <a href="https://www.linkedin.com/in/anant-prakash-prajapati-307a44236/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team73.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">I have completed my
+                            postgraduation in the stream of Computer Applications in B. V. Raju College Bhimavaram . I
+                            have skills like Java, Spring Boot, HTML, CSS, MySQL. I’m a fresher but i would surely adapt
+                            to the work environment and try 100% to enhance my knowledge and skills.</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Nookala Mounika</h5>
+                    <p class="text-center">Cloud Full Stack-Junior Engineer</p>
+                    <a href="https://www.linkedin.com/in/mounika-nukala-375b1722a/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team74.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">I’m a Cloud Full-Stack Engineer
+                            at NexTurn Technologies with a passion for learning new things and like to explore new
+                            technology.</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Deepu K</h5>
+                    <p class="text-center">Cloud Full Stack-Junior Engineer</p>
+                    <a href="https://www.linkedin.com/in/deepu-kankar-13b988199/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team75.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">I’m a tech enthusiast always
+                            keen about learning new things and a very hardworking and dedicated towards my professional
+                            career. Specialized in martial arts, I’ve received national level medals. In my free time, I
+                            like cooking and watching anime to keep myself relaxed.</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Adarsh Yagnik</h5>
+                    <p class="text-center">Cloud Full Stack-Junior Engineer</p>
+                    <a href="https://www.linkedin.com/in/aadarsh-yagnik/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team76.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">Knowledge of front-end and
+                            back-end with intuitive problem-solving skills. Eager to work in Java, Spring, SpringBoot,
+                            React Js, and Problem Solving with a different database. Passionate about implementing and
+                            launching new projects.</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Akash Rathore</h5>
+                    <p class="text-center">Cloud Full Stack-Junior Engineer</p>
+                    <a href="https://www.linkedin.com/in/akash-rathore-2110a120b/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team165.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">software engineer Strong in
+                            design and integration with intuitive problem-solving skills Proficient in JAVA, JAVASCRIPT,
+                            SQL etc. Passionate about implementing and launching new projects, and ability to
+                            communicate with clients and ability to express ideas clearly.</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Sri Santhosh</h5>
+                    <p class="text-center">Cloud Full Stack-Junior Engineer</p>
+                    <a href="https://www.linkedin.com/in/sri-santhosh-b518681a6/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team78.jpg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">I am a Full-stack web developer
+                            with robust problem-solving skills and experience in creating and designing websites.</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Praveen</h5>
+                    <p class="text-center">Cloud Full Stack-Junior Engineer</p>
+                    <a href="https://www.linkedin.com/in/praveen-kumar-ahirwar-b72489203/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team79.jpg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">Enthusiastic full stack java
+                            developer with knowledge in front-end and backend in different Databases. Capability to work
+                            in teams by providing valuable support.</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Vaishnavi Namdev</h5>
+                    <p class="text-center">Cloud Full Stack-Junior Engineer</p>
+                    <a href="https://www.linkedin.com/in/vaishnavi-namdev-b08520204/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team80.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">Cloud Full Stack Junior
+                            Engineer with 10+ months of experience in web application development also I have developed
+                            real time Blockchain project. Able to work independently of remote locations or in office
+                            environments as needed by the company. Interested in solving real life problems in an
+                            innovative way.</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Deepak</h5>
+                    <p class="text-center">Cloud Full Stack-Junior Engineer</p>
+                    <a href="https://www.linkedin.com/in/deepaklodha/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team81.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">My name is Anil Kamble and I am
+                            a Cloud Full Stack-Junior Engineering for NexTurn. I completed my B-Tech degree from
+                            National institute of technology Puducherry. And Good knowledge of C#, Asp.net, Angular, and
+                            MS SQL. Apart from work interested in watching different genres of movies and listening to
+                            music</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Anil</h5>
+                    <p class="text-center">Cloud Full Stack-Junior Engineer</p>
+                    <a href="https://www.linkedin.com/in/anil-kamble-918370227/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team82.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">My name is Prerna Pasoriya and
+                            I am a Cloud Full Stack-Junior Engineer for NexTurn. I completed my MCA degree from
+                            Ramdeobaba College Of Engineering And Management, Nagpur. Good knowledge of C#, Asp.net,
+                            Angular, and MS SQL. I enjoy using my skills to contribute for NexTurn.</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Prerna</h5>
+                    <p class="text-center">Cloud Full Stack-Junior Engineer</p>
+                    <a href="https://www.linkedin.com/in/prerna-pasoriya-225889249/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team83.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">Self motivated and hard working
+                            full stack developer with good problem</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Balamahendira</h5>
+                    <p class="text-center">Cloud Full Stack-Junior Engineer</p>
+                    <a href="https://www.linkedin.com/in/bala-mahendira-55ba5b219/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team84.jpg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">Dedicated Engineer Graduated
+                            From NIT Puducherry I’m Seeking To Improve my Technical knowledge related to newly emerging
+                            technologies in the market and Nexturn is a Right choice for it. Excited for the further
+                            journey With NextTurn</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Jami Lohith Reddy</h5>
+                    <p class="text-center">Cloud Full Stack-Junior Engineer</p>
+                    <a href="https://www.linkedin.com/in/lohith-reddy-03ba41236/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team85.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center"> Do smart work.</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Koushik M</h5>
+                    <p class="text-center">Cloud Full Stack-Junior Engineer</p>
+                    <a href="https://www.linkedin.com/in/mamilla-koushik-37a7811b3/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team86.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">I am a passionate, optimistic
+                            and a hardworking individual who always want to learn and grow to the fullest. I always
+                            ensure to try my best and face the challenges with full enthusiasm.</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Sri Lakshmi</h5>
+                    <p class="text-center">Cloud Full Stack-Junior Engineer</p>
+                    <a href="https://www.linkedin.com/in/sri-lakshmi-devi-a4a643237/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team87.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">A Cloud Full stack junior
+                            engineer with a focus on the development of the company and Interested in learning .More
+                            confident on my skills.Apart from work interested in playing sports .</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Ragunathan S</h5>
+                    <p class="text-center">Cloud Full Stack-Junior Engineer</p>
+                    <a href="https://www.linkedin.com/in/ragunathan-s-a0ba34236/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team88.jpg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">A Cloud Full stack junior
+                            engineer with a focus on the development of the company.Happy to start my career with
+                            nexturn. Interested in learning new technologies and concept. Apart from work, interested in
+                            watching different genres of movies and listening to music</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Sathish S</h5>
+                    <p class="text-center">Cloud Full Stack-Junior Engineer</p>
+                    <a href="https://www.linkedin.com/in/sathish-c-026aab219/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team89.jpg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">Nexturn has been a great
+                            platform for me to learn many technical skills, and I am looking forward to improving myself
+                            in the technical area.very excited to contribute my skills to the company.</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Pavan Kumar</h5>
+                    <p class="text-center">Cloud Full Stack-Junior Engineer</p>
+                    <a href="https://www.linkedin.com/in/pavan-uddaraju-779284221/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team90.jpg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">Dedicated Engineer Graduated
+                            From NIT Puducherry Passionate in reforming my Technical skills. The Learning phase of my 6
+                            months In Nexturn is Extraordinary Excited for further journey With Nexturn.</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Ramkumar</h5>
+                    <p class="text-center">Cloud Full Stack-Junior Engineer</p>
+                    <a href="https://www.linkedin.com/in/ram-kumar-b40715194/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team91.jpg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">A Civil guy turned software
+                            engineer. loves to do cycling and have more passionate in Athletics, Carrom.</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Jayachandran</h5>
+                    <p class="text-center">Cloud Full Stack-Junior Engineer</p>
+                    <a href="https://www.linkedin.com/in/jayachandran-chandru-1a3307221/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team92.jpg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">Fresher with a lot of
+                            enthusiasm, Presence of Mind and Positive Attitude towards all the Situations, very
+                            ambitious to work on different requirements and develop the code as per the requirements.
+                        </p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Thomson</h5>
+                    <p class="text-center">Cloud Full Stack-Junior Engineer</p>
+                    <a href="https://www.linkedin.com/in/thomson-thamanampalli-9a3729235/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team93.jpg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">A junior engineer enthusiastic
+                            in learning about software development and cloud architecture. He likes to spend time with
+                            family and watching movies in free time.</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Phani Kumar</h5>
+                    <p class="text-center">Cloud Full Stack-Junior Engineer</p>
+                    <a href="https://www.linkedin.com/in/phani-kumar-a7305a212/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team94.jpg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">Eager to learn new technologies
+                            and methodologies.Always willing to innovate the new things which can improve the existing
+                            technology.</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Samundeeswari</h5>
+                    <p class="text-center">Cloud Full Stack-Junior Engineer</p>
+                    <a href="https://www.linkedin.com/in/samundeeswari-m-570509173/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team95.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">My name is Sneha Gayathri, and
+                            I am a Cloud full Stack -Junior Engineer for NexTurn. I have completed by BTECH(CSE) from
+                            KITS College, Markapur. I have a good knowledge on C#, Angular, MVC, MS SQL, Web API.I am
+                            here to contribute my skills for the growth of the Company.</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Sneha Gayathri</h5>
+                    <p class="text-center">Cloud Full Stack-Junior Engineer</p>
+                    <a href="https://www.linkedin.com/in/sneha-gayathri-07036b239/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team96.jpg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">An accomplished Azure, Dot Net
+                            developer specialized in UI & core Azure services. Enjoy exploring new technologies. Their
+                            expertise shines through projects like the Core Banking System and internal innovations.
+                            Travel person love to meet new people. Beyond coding, he is a fitness enthusiast, often
+                            found at the gym, and a creative music producer, showcasing their multifaceted talents
+                            beyond tech.
+                        </p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Mayur Khairkar</h5>
+                    <p class="text-center">Cloud Full Stack-Junior Engineer</p>
+                    <a href="https://www.linkedin.com/in/mayur-khairkar-66865319a/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team97.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">This is Darshana Makode
+                            employee at Nexturn with the Designation of Cloud Full Stack-Junior Engineer , I am strong
+                            in problem-solving skills. Proficient in C# ,Asp.net, Angular and MS SQL. Passionate about
+                            implementing new projects. Ability to translate business requirements into technical
+                            solutions.</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Darshana Makode</h5>
+                    <p class="text-center">Cloud Full Stack-Junior Engineer</p>
+                    <a href="https://www.linkedin.com/in/darshana-makode-79aa391ba/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team98.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">A full stack engineer who has
+                            worked on various Microsoft related technologies. Love to learn new things, exploring new
+                            places and playing badminton.</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Shalini Rawat</h5>
+                    <p class="text-center">Cloud Full Stack-Junior Engineer</p>
+                    <a href="https://www.linkedin.com/in/shalini-rawat/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team99.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">A B.E graduate in Information
+                            Science and Engineering with 5+ years of experience in IT. Loves to cook and read on various
+                            subjects – economy, polity, philosophy and self-help.</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Vijaykumar Karur</h5>
+                    <p class="text-center">Partner - Senior Cloud Full Stack Engineer</p>
+                    <a href="https://www.linkedin.com/in/vijaykumarkarur/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team100.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">13+ years of experience in the
+                            IT industry. In these many years, came across different projects with their own protocol and
+                            strategy fixing to the market standards. Playing the role of the Business Analyst in the
+                            recent 7 years adding ideas to the projects and the client’s thoughts. The role of a
+                            Business analyst has its own face based on the project the people work for. Being Business
+                            Analyst, I have been working in planning, developing and implementing client requirement
+                            needs and project insights.</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Indu Sundar</h5>
+                    <p class="text-center">Senior Business Analyst</p>
+                    <a href="javascript:;" class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team103.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">12+ years of Exp in Java with
+                            ATG and Spring Frameworks</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Aruna Jayaraman</h5>
+                    <p class="text-center">Partner- Associate Java Architect</p>
+                    <a href="https://www.linkedin.com/in/aruna-jayaraman-b17baa134/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team104.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">Having 2+ years of experience
+                            in DevOps methodologies with Cloud Experience</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Harika</h5>
+                    <p class="text-center">Cloud DevOps Engineer</p>
+                    <a href="https://www.linkedin.com/in/harika-t-25aprl96/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team105.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center"></p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Sajith S</h5>
+                    <p class="text-center">UX Architect</p>
+                    <a href="https://www.linkedin.com/in/sajith-surendran-843499b7/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team106.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">Having 10 Years of Experience
+                            in Windows Server Administration along with HyperV,VMWare, Citrix and Azure Cloud</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Sivannarayana Chirumamilla</h5>
+                    <p class="text-center">Cloud Senior SRE</p>
+                    <a href="javascript:;" class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team107.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center"></p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">N S Rao Gadireddi</h5>
+                    <p class="text-center">Associate Cloud Architect</p>
+                    <a href="javascript:;" class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team108.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">Working as SrDevops engineer
+                            and love to adpot cutting-edge technologies in devops area and loves travelling.</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Bhaskar Hemaraju</h5>
+                    <p class="text-center">Partner-Devops Engineer</p>
+                    <a href="javascript:;" class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team109.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center"></p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">P V Anil Reddy</h5>
+                    <p class="text-center">Sr. Cloud Program Manager</p>
+                    <a href="javascript:;" class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team110.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center"></p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Chinnabathini John Jaswanth kumar</h5>
+                    <p class="text-center">Cloud Data- Junior Engineer</p>
+                    <a href="javascript:;" class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team111.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center"></p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Minupuri Prasthuthi</h5>
+                    <p class="text-center">Cloud Data- Junior Engineer</p>
+                    <a href="javascript:;" class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team112.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center"></p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Nandkishor Kumar</h5>
+                    <p class="text-center">Cloud Data- Junior Engineer</p>
+                    <a href="javascript:;" class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team113.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">Data Science graduate with a
+                            passion for data.I am an enthusiastic person who is always in the path of exploring new
+                            technologies.Hands-on Experience in Data Engineering and Machine Learning Projects.I am
+                            excited to continue strengthening my career and increasing my skill set by bringing
+                            excellence to NexTurn.</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">M Gayathri</h5>
+                    <p class="text-center">Cloud Data- Junior Engineer</p>
+                    <a href="javascript:;" class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team114.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center"></p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Misale Ramesh</h5>
+                    <p class="text-center">Cloud Data- Junior Engineer</p>
+                    <a href="javascript:;" class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team115.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center"></p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Jaswanth Gaddam</h5>
+                    <p class="text-center">Cloud Data- Junior Engineer</p>
+                    <a href="javascript:;" class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team116.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">I have completed my
+                            postgraduation in the stream of Computer Applications in B. V. Raju College Bhimavaram . I
+                            have skills like Java, Spring Boot, HTML, CSS, MySQL. I’m a fresher but i would surely adapt
+                            to the work environment and try 100% to enhance my knowledge and skills.</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">S.Mounika</h5>
+                    <p class="text-center">Cloud Data- Junior Engineer</p>
+                    <a href="javascript:;" class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team117.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">Eager to learn new
+                            things.Knowledge in Data Engineering and ML projects with hands on experience,proven skills
+                            in data warehouse,data analysis ,BI.</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Chintala Srilekha</h5>
+                    <p class="text-center">Cloud Data- Junior Engineer</p>
+                    <a href="javascript:;" class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team118.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center"></p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Madineni Karthika</h5>
+                    <p class="text-center">Cloud Data- Junior Engineer</p>
+                    <a href="javascript:;" class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team119.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center"></p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Yanamala Dileep Kumar Reddy</h5>
+                    <p class="text-center">Cloud Data- Junior Engineer</p>
+                    <a href="javascript:;" class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team120.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center"></p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Jallarapu Rohan</h5>
+                    <p class="text-center">Cloud Data- Junior Engineer</p>
+                    <a href="javascript:;" class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team121.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">Having 14 years of experience
+                            in UI Technologies mostly in ReactJS and also have worked on Java, Node.js, and Databases.
+                        </p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Sanjay Kumar Hansdak</h5>
+                    <p class="text-center">Cloud Java architect</p>
+                    <a href="javascript:;" class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team122.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">Have 10 years of experience in
+                            the IT industry on Development, Analysis and Testing. Eager to learn new things. </p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Sukanya Sathiyamoorthy</h5>
+                    <p class="text-center">Cloud Data Engineer</p>
+                    <a href="javascript:;" class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team123.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">10.8 years of IT experience in
+                            various technologies like Java, Servlets, EJB Hibernate, SpringBoot, Angularjs, Javascript,
+                            nodejs,elastic search, graphql Postgres, DocumentDB, MongoDB</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Sangeetha</h5>
+                    <p class="text-center">Cloud Associate Architect</p>
+                    <a href="javascript:;" class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team124.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">Having 18+ years of IT
+                            experience in different domains for development, maintenance & support type of projects.
+                            Major Experience earned in .Net, Java, Node.js, Pl/SQL, Architecture, and Agile. Always
+                            interested to learn new technologies/concepts and then try to collaborate as well.</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Vikas Bhati</h5>
+                    <p class="text-center">Senior Cloud Architect</p>
+                    <a href="javascript:;" class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team125.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center"></p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Khaja Moinuddin Mohammed</h5>
+                    <p class="text-center">Senior DevOps Architect</p>
+                    <a href="javascript:;" class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team126.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center"></p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Aznabi Kumar</h5>
+                    <p class="text-center">Associate Cloud Architect</p>
+                    <a href="javascript:;" class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team127.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">A fresher who passed out of
+                            college in 2022 . I’m self motivated, hard working and very communicative and have hobbie of
+                            pencil sketch</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Gudla Santosh Likhiya Reddy</h5>
+                    <p class="text-center">HR Recruiter Trainee</p>
+                    <a href="javascript:;" class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team128.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">Aalekhya is a seasoned L&D
+                            specialist with a background in Business Administration. Her extensive track record in
+                            Training Delivery & Management stems from her aptitude and passion for Business and
+                            Corporate Communications. She loves writing and travelling.</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Aalekhya Cherukuri</h5>
+                    <p class="text-center">Technical Training Manager</p>
+                    <a href="javascript:;" class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team129.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">2 years of experince in
+                            Automation Testing</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Kamatham Swapna</h5>
+                    <p class="text-center">Cloud QA Automation Engineer</p>
+                    <a href="javascript:;" class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team130.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">20+ years in Industrial
+                            Automation System Design, Programming PLC’s,SCADA, Industrial Data Acquisition, IOT,
+                            Industrial ML Applications, Python Programming</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Peri VSS Sarath Kumar</h5>
+                    <p class="text-center">Senior ML Engineer</p>
+                    <a href="javascript:;" class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team131.jpg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">Enthusiastic student eager to
+                            contribute to team success through hard work, attention to detail, and excellent
+                            organizational skills. Motivated to learn, grow and excel in this technologically advanced
+                            era.</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Adhvaith</h5>
+                    <p class="text-center">Cloud Full Stack-Junior Engineer</p>
+                    <a href="https://www.linkedin.com/in/adhvaith-p-nair-b6a813211/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team132.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">Having 15+ years of experience
+                            in IT with Java and J2EE based application development. Proficient in development of Spring
+                            Boot and RESTful Webservices, RabbitMQ server for communication, Crystal report designer and
+                            PL/SQL and Oracle. Good Learner, enthusiastically looking forward to learning new
+                            Technologies. Playing Badminton, Cricket and Reading books are my Hobbies</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Jeyasingh</h5>
+                    <p class="text-center">Partner Cloud Associate Architect</p>
+                    <a href="https://www.linkedin.com/in/jeyasingh-swamyraja/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team133.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">Having 8 months of experience
+                            in domestic process. I am a graduate. I am self motivted person and willing to learn new
+                            things. I can get along with others to make more new friends and facilitate cultural
+                            exchange. My hobbies are dancing, singing, gardening and cooking.</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Shravani challa</h5>
+                    <p class="text-center">Partner HR RecruiterTrainee</p>
+                    <a href="https://www.linkedin.com/in/challa-shravani-b231b424a/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team134.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">Praveen is an IT professional
+                            with 19 years of experience in Application Development and Maintenance across multiple
+                            domains. He likes watching movies and sports highlights, playing chess and cricket.</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Praveen Chandran</h5>
+                    <p class="text-center">Senior Cloud Project Manager</p>
+                    <a href="https://www.linkedin.com/in/praveen-chandran-ramachandran-338bb07/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team135.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">Having 2 Years of experience in
+                            Domestic IT Recruiter.</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Sirisha</h5>
+                    <p class="text-center">IT - Recruiter</p>
+                    <a href="https://www.linkedin.com/in/sirisha-reddy-7659a3206/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team136.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">Having 14+ years of experience
+                            as Linux architecture, DevOps, Git, Jenkins. SonarQube, Nexus, bash, Kernel.</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Arul Kumar</h5>
+                    <p class="text-center">Hybrid Cloud Architect</p>
+                    <a href="https://www.linkedin.com/in/arul-kumar-manickam-55b145a7/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team137.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">This is Charan Kumar
+                            Nemalipuri, I graduated from National Institute of Technology Nagaland, Currently working as
+                            an Junior Data Engineer at NexTurn,Loves to watch Anime.</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Charan Kumar Nemalipuri</h5>
+                    <p class="text-center">Junior Data Engineer</p>
+                    <a href="javascript:;" class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team138.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">Hi, Myself Lokesh Vebbili from
+                            Tirupathi, Andhra Pradesh. I completed my graduation in National Institute Of Technology
+                            Nagaland, currently I’m working as Junior Cloud Data Engineer in Nexturn, Loves to watch
+                            Anime and playing Cricket.</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Lokesh Vebbili</h5>
+                    <p class="text-center">Junior Data Engineer</p>
+                    <a href="javascript:;" class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team139.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">I am Having 12+ years of IT
+                            experience in banking domain.I love to explore new technical things. My hobbies are watching
+                            Cricket and Cooking.</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Kuldeep Chaudhary</h5>
+                    <p class="text-center">Senior Cloud Data Analyst</p>
+                    <a href="https://www.linkedin.com/in/kuldeep-chaudhary-018a63176/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team140.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">Having 6 years of experience
+                            and 4+ in Devops and cloud (AWS)</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Kishore</h5>
+                    <p class="text-center">Devops Engineer</p>
+                    <a href="https://www.linkedin.com/in/kishore-kumar-1b655b13a/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team141.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">Having 7.5 years of exp into
+                            DevOps tool stack and Cloud environment.</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">G Lingaswamy</h5>
+                    <p class="text-center">Senior Devops Engineer</p>
+                    <a href="javascript:;" class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team142.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">Having 7 years of End to End
+                            Technical Recruitment experience.</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Vidyadhari</h5>
+                    <p class="text-center">Senior Talent Acquisition Partner</p>
+                    <a href="https://www.linkedin.com/in/vidyadhari-annapragada-5ba03a1b2/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team143.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">Having 3 years of experience in
+                            AWS cloud and Devops toolstack.</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">B Vignesh</h5>
+                    <p class="text-center">Partner - Devops Engineer</p>
+                    <a href="javascript:;" class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team144.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">Based out from Hyderabad,
+                            Completed undergraduate in bachelors of management studies. Hobbies are dancing, listening
+                            music,reading books and traveling.</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Voshita Agarwal</h5>
+                    <p class="text-center">Partner HR Recruiter trainee</p>
+                    <a href="https://www.linkedin.com/in/voshitaagarwal/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team145.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">Professional with 4+ years of
+                            experience in Automation Testing and 1 year in Functional testing.</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Deepali Dongare</h5>
+                    <p class="text-center">Partner - Senior Automation Test Engineer</p>
+                    <a href="https://www.linkedin.com/in/deepali-dongare-0b2a01197/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team146.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">Having 12+ Years of experience
+                            in DevOps and SCM</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Sudhakar Duppalapudi</h5>
+                    <p class="text-center">Partner - Senior DevOps Architect</p>
+                    <a href="https://www.linkedin.com/in/sudhakar-duppalapudi-88066599/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team147.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">Full-stack developer proficient
+                            in Python, JavaScript, and frameworks. With 1.5 years of experience, I am passionate about
+                            problem solving and enjoy writing insightful tech blogs.</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Omprakash Mishra</h5>
+                    <p class="text-center">Cloud Data Junior Engineer</p>
+                    <a href="https://www.linkedin.com/in/opeeyum/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team148.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">Over the past 15 years, I have
+                            honed my skills in the .NET framework and become an expert in using tools like C#,
+                            JavaScript and SQL Server. I have worked on a wide range of projects, from developing
+                            desktop applications to creating complex web applications using ASP.NET and MVC frameworks.
+                        </p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">James Deepak A</h5>
+                    <p class="text-center">Technical Project Manager</p>
+                    <a href="javascript:;" class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team149.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">Having 11+ years of experience
+                            in Microsoft Technologies and open source(Angular & React).Certified in Azure 204, AZ 900 &
+                            AI 900. Experience in Application development and support, Incident Management.</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Vanapandi</h5>
+                    <p class="text-center">Partner-Associate Architect</p>
+                    <a href="https://www.linkedin.com/in/vanapandi-narayanan-7b189653/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team150.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">Having Almost 15 year experince
+                            in oracle SCM functional</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Senthil Kumar</h5>
+                    <p class="text-center">Partner-Oracle Functional Architect -SCM</p>
+                    <a href="https://www.linkedin.com/in/senthilkumar-r-53024117/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team151.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">Having 32 years experience.</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Ramesh K</h5>
+                    <p class="text-center">Partner-Senior FoxPro Developer</p>
+                    <a href="https://www.linkedin.com/in/ramesh-iyer-54704510/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team152.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">5.6 years of experience in
+                            Vmware products.</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Bhushan</h5>
+                    <p class="text-center">Consultant - Vmware</p>
+                    <a href="https://www.linkedin.com/in/bhushan-paunikar-9b3969147/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team153.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">Engineering Professional with
+                            an experience of more than a decade as an Infrastructure management (both on-prem and
+                            cloud), Application Development (Python) willing to learn latest technologies.</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Prithvi K</h5>
+                    <p class="text-center">Senior Infrastructure Engineer</p>
+                    <a href="https://www.linkedin.com/in/prithvi-kandala-530780195/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team154.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">Having total 6+ years of
+                            experience as Devops toolstack.</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Hassensha Shaik</h5>
+                    <p class="text-center">Senior Devops Engineer</p>
+                    <a href="https://www.linkedin.com/in/shaik-hassensha-48a29b135/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team155.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">Overall, 15 years of experience
+                            in managing large and complex engagements. Manager offering a proven record of success
+                            leading all phases of technology projects.</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Bhaskar Sarkar</h5>
+                    <p class="text-center">Sr Cloud Manager</p>
+                    <a href="https://www.linkedin.com/in/bhaskar-sarkar-a61a2217/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team156.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">Oracle Financial Cloud</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Charudutta Dalvi</h5>
+                    <p class="text-center">Oracle Financial Solution Architect</p>
+                    <a href="https://www.linkedin.com/in/charudutta/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team157.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">I have 11+ years of experience
+                            in software Industry as a developer. I have worked on web application development as a back
+                            end engineer using Java technologies. I like to read books, swim and spend time with my
+                            family.</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Madhur Sharma</h5>
+                    <p class="text-center">Principal Cloud Lead</p>
+                    <a href="https://www.linkedin.com/in/hellomadhur/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team158.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">Having 17+ years of experience
+                            as technical project manager, technical lead and scrum master with Agile frameworks Kanban
+                            and Scrum. Leading teams to generate a vision, establish direction and motivate members,
+                            create an atmosphere of trust, leverage diverse views, coach staff, and encourage
+                            improvement and innovation. Also worked has software developer with skillset C, C++, unix
+                            scripting,SQL, PLSQL and having Knowledge of DevOps process.</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Rajasree K</h5>
+                    <p class="text-center">Partner- Technical Program Manager</p>
+                    <a href="https://www.linkedin.com/in/rajasree-kothagattu-51523264/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team159.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">12+ years of experience in .net
+                            full stack development with azure cloud enthusiastic.</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Sundeep P</h5>
+                    <p class="text-center">Partner - Associate Cloud Architect</p>
+                    <a href="https://www.linkedin.com/in/sundeep-p-38082b1a9/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team160.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">13+ years of experience in
+                            Microsoft .NET and related technologies.</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Shruthi G M</h5>
+                    <p class="text-center">Partner - Associate Cloud Architect</p>
+                    <a href="https://www.linkedin.com/in/shruthi-gm-91b12380/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team161.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">Having total of 5 years IT
+                            experience and 2.5 years as a DevOps Engineer.</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Shabiya</h5>
+                    <p class="text-center">DevOps Engineer</p>
+                    <a href="https://www.linkedin.com/in/sarvarsabiyabhanu-sheik-b8626b257/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team162.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">Having 5 years of experience in
+                            Linux Administration and Shell Scripting, 3 years into DevOps.</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Deepesh Bhandari</h5>
+                    <p class="text-center">Senior DevOps Engineer</p>
+                    <a href="javascript:;" class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team163.jpeg" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">9 Years of Experience in Mobile
+                            Development with objective-C and Swift.</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Harshit</h5>
+                    <p class="text-center">Partner - Lead Mobile Engineer</p>
+                    <a href="https://www.linkedin.com/in/harshit-diyora/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+                <div
+                    class="team-item col-sm-6 col-md-4 col-xl-3 p-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="team-img d-flex justify-content-center">
+                        <img src="images/team/team164.png" alt="team2">
+                        <p class="team-overlay position-absolute text-white text-center">12 Years + Experience it
+                            Virtualization field with VMware, vRealize suit looking forward for becoming Cloud
+                            Architecture.</p>
+                    </div>
+                    <h5 class="h5 text-center font-bold mt-3 mb-1">Mitrajeet</h5>
+                    <p class="text-center">Senior VMware Consulatant</p>
+                    <a href="https://www.linkedin.com/in/mitrajeet-howal-1349a528/" target="_blank"
+                        class="text-decoration-none text-center">
+                        <img src="images/linkedin.png" width="32" alt="linkedin">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer bg-footer mt-5 pt-5 ">
+        <div class="container">
+            <div class="bottombar">
+                <div class="row d-flex justify-content-evenly">
+                    <div class="col-md-4 p-3 text-white">
+                        <h2>NexTurn</h2>
+                        <p class="pt-3 font-regular">We enable clients to navigate the
+                            paradigm shift in building and modernizing
+                            software products & platforms leveraging
+                            cloud native solutions.</p>
+                        <div class="input-group mx-auto">
+                            <input type="email" class="form-control" placeholder="Email" aria-label="Email"
+                                aria-describedby="button-addon2">
+                            <button class="btn text-white btn-primary border-0" type="button" id="button-addon2"><i
+                                    class="fa-solid fa-paper-plane"></i></button>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 p-3 text-white">
+                        <h4>Services</h4>
+                        <ul class="pt-3 footer-list font-regular">
+                            <li>Enterprise Transformation To Cloud</li>
+                            <li>Cloud Native Engineering</li>
+                            <li>Right Cloud & Security</li>
+                            <li>Cloud Native & Analytics</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 p-3 text-white">
+                        <h4>Contact</h4>
+                        <p class="pt-3">We are just at a click away</p>
+                        <div>
+                            <span class="px-2 text-primary"><i class="fa-solid fa-envelope"></i></span>
+                            <span class="bottombar-text">info@nexturn.com</span>
+                        </div>
+                        <div>
+                            <span class="px-2 text-primary"><i class="fa-solid fa-location-dot"></i></span>
+                            <span class="bottombar-text">Bellevue, Washington</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bottombar-box row my-4 px-3">
+                    <div class="col-md-4 d-flex align-items-center bottombar-item font-regular text-white py-3">
+                        <span class="px-2"><i class="fa-solid fa-phone"></i></span>
+                        <div class="ms-2 text-nowrap font-regular">
+                            Requesting a call: <br />
+                            (0123) 456-789
+                        </div>
+                    </div>
+                    <div class="col-md-4 d-flex align-items-center bottombar-item font-regular text-white py-3">
+                        <span class="px-2"><i class="fa-solid fa-clock"></i></span>
+                        <div class="ms-2 text-nowrap font-regular">
+                            Monday - Friday: <br />
+                            9 am - 8 pm
+                        </div>
+                    </div>
+                    <div class="col-md-4 d-flex align-items-center bottombar-item font-regular text-white py-3">
+                        <span class="px-2"><i class="fa-solid fa-location-dot"></i></span>
+                        <div class="ms-2 font-regular">
+                            3600 Wilshire Boulevard. Suit 1716. Los Angeles, California 90010, US
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="row py-3 footer-bottom d-flex align-items-center justify-content-between">
+
+                    <div class="font-regular col-md-6 px-5 text-white">
+                        <span class="bottombar-text font-regular">© NexTurn.com 2023 | All Rights Reserved</span>
+                    </div>
+                    <div class="font-regular col-md-6 px-5 text-end text-white font-regular">
+                        <span class="bottombar-text me-2">Terms & Conditions</span>
+                        <span class="bottombar-text me-2">Privacy Policy </span>
+                        <span class="bottombar-text">Contact Us</span>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+
+        </div>
+    </section>
+</body>
+
+</html>
+<script>
+    jQuery(function ($) {
+        $('.menu-btn').click(function () {
+            $('.mobile-nav').toggleClass('expand');
+            if ($('.mobile-nav').is(':visible')) {
+                $('body').addClass("no-scroll");
+            } else {
+                $('body').removeClass("no-scroll");
+            }
+        })
+        $('.close').click(function () {
+            $('.mobile-nav').toggleClass('expand');
+            if ($('.mobile-nav').is(':visible')) {
+                $('body').addClass("no-scroll");
+            } else {
+                $('body').removeClass("no-scroll");
+            }
+        })
+    })
+    $('.owl-carousel').owlCarousel({
+        autoplay: false,
+        items: 2,
+        nav: true,
+        navText: ['<i class="fa-solid fa-arrow-left"></i>', '<i class="fa-solid fa-arrow-right"></i>'],
+        margin: 30,
+        dots: false,
+        responsive: {
+            180: {
+                items: 1,
+            },
+            600: {
+                items: 2,
+            },
+            767: {
+                items: 2,
+            },
+            990: {
+                items: 3,
+            },
+        }
+    })
+</script>

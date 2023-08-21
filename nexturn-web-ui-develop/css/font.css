@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@100;200;300;400;500;600;700;800;900;1000&display=swap");
+
+/*------------Font Class------------*/
+
+.font-thin{
+    font-family: "DM Sans", sans-serif;
+    font-weight: 100;
+}
+.font-extralight{
+    font-family: "DM Sans", sans-serif;
+    font-weight: 200;
+}
+.font-light{
+    font-family: "DM Sans", sans-serif;
+    font-weight: 300;
+}
+.font-regular{
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+}
+.font-medium{
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+}
+.font-semibold{
+    font-family: "DM Sans", sans-serif;
+    font-weight: 600;
+}
+.font-bold{
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+}
+.font-extrabold{
+    font-family: "DM Sans", sans-serif;
+    font-weight: 800;
+}

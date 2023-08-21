@@ -1,0 +1,23 @@
+.topbar {
+  background: var(--dark-blue, #0132e0);
+  color: #ffffff;
+  font-size: 14px;
+}
+.topbar .container {
+  height: 50px;
+}
+.topbar-item:not(:last-child)::after {
+  content: "";
+  width: 1px;
+  height: 25px;
+  border-right: 1px solid #4ebefd;
+  margin-left: 50%;
+}
+@media (max-width: 768px) {
+  .topbar-text {
+    display: none;
+  }
+  .topbar-item::after {
+    border-right: none !important;
+  }
+}

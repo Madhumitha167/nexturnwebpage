@@ -1,0 +1,67 @@
+.bottombar .container {
+  height: 300px;
+}
+.bg-footer {
+  background: url("../images/bg-footer.png") #1e266e repeat-y;
+  background-size: 100% auto;
+  background-position: right;
+  position: relative;
+}
+.footer .btn-primary {
+  background-color: #5956E9 !important;
+}
+.footer .text-primary {
+  color: #5956E9 !important;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.bottombar-box {
+  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.bottombar-item span {
+  color: #5956e9;
+  font-size: 24px;
+}
+.bottombar-box .bottombar-item:not(:last-child)::after {
+  content: "";
+  width: 1px;
+  height: 25px;
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+  margin-left: 25%;
+}
+@media (max-width: 991px) {
+  .bottombar-box .bottombar-item:not(:last-child)::after {
+    content: "";
+    border: 0;
+  }
+}
+
+.footer-list {
+  list-style: none;
+}
+.footer-list li {
+  position: relative;
+}
+.footer-list li:before {
+  content: "\276F";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  left: -20px;
+}
+.footer-bottom{
+    font-size: 13px;
+}
